@@ -1,0 +1,38 @@
+package pack05_referencedatatype.sec01_array.EX05_ReadArrayData;
+
+public class EX05_ReadArrayData {
+	public static void main(String[] args) {
+		
+		int[] array = new int[]{3,4,5,6,7};
+		
+		//#1. 배열의 길이 구하기 (length)
+		System.out.println(array.length); //5
+		System.out.println();
+		
+		//#2. 출력방법1. 배열 하나씩 출력하기
+		System.out.println(array[0]);
+		System.out.println(array[1]);
+		System.out.println(array[2]);
+		System.out.println(array[3]);
+		System.out.println(array[4]);
+		System.out.println();
+		
+		//#3. 출력방법2. for 반복문으로 출력하기
+		for(int i=0; i<array.length; i++)
+			System.out.println(array[i]);
+		System.out.println();
+		
+		//#4. 출력방법3. for-each 반복문 사용하여 출력하기
+		for (int k : array)
+			System.out.println(k);		
+		
+		int[] a[];
+		a=new int[][] {{1,2},{3,4}};
+		System.out.println(a[0][0]);
+		System.out.println(a[0][1]);
+		System.out.println(a[1][0]);
+		System.out.println(a[1][1]);
+		
+										
+	}
+}

@@ -1,0 +1,42 @@
+package pack03_operators.EX02_BitwiseOperator;
+
+public class EX02_BitwiseOperator {
+	public static void main(String[] args) {
+		
+		//#1. 다양한 진법의 표현
+		System.out.println(13);		//10진법
+		System.out.println(0b1101);	//2진법
+		System.out.println(015);	//8진법
+		System.out.println(0x0D);	//16진법
+		System.out.println();
+		
+		
+		//#2. 비트연산자 
+		//@ AND 연산자
+		System.out.println(3 & 10); 		//2
+		System.out.println(0b0011 & 0b1010);//2		
+		System.out.println(0x03 & 0x0A);	//2		
+		System.out.println();
+		
+		//@ OR 연산자
+		System.out.println(3 | 10); 		//11
+		System.out.println(0b0011 | 0b1010);//11		
+		System.out.println(0x03 | 0x0A);	//11		
+		System.out.println();
+		
+		
+		//@ XOR 연산자
+		System.out.println(3 ^ 10); 		//9
+		System.out.println(0b0011 ^ 0b1010);//9		
+		System.out.println(0x03 ^ 0x0A);	//9		
+		System.out.println();
+		
+		
+		//@ ~ 연산자
+		System.out.println(~3);			//-4
+		System.out.println(~0b0011); 	//-4
+		System.out.println(~0x03); 		//-4
+		System.out.println();
+				
+	}
+}
