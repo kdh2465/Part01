@@ -2,6 +2,8 @@ package pack05_referencedatatype.sec02_string.EX02_ModificationOfStringData;
 
 import java.util.Arrays;
 
+/*String 객체의 문자열 수정 및 다른 참조자료형과의 비교*/
+
 public class EX02_ModificationOfStringData {
 	public static void main(String[] args) {
 		
@@ -20,8 +22,6 @@ public class EX02_ModificationOfStringData {
 		array1[0]=6; array1[1]=7; array1[2]=8;
 		
 		System.out.println(Arrays.toString(array1)); //[6, 7, 8]
-		System.out.println(Arrays.toString(array2)); //[6, 7, 8]
-			
-		
+		System.out.println(Arrays.toString(array2)); //[6, 7, 8]					
 	}
 }

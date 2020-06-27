@@ -1,8 +1,9 @@
 package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX06_OperationBetweenDataType;
 
+/*같은 자료형간의 연산과 다른 자료형간의 연산*/
+
 public class EX06_OperationBetweenDataType {
-	public static void main(String[] ar) {
-		
+	public static void main(String[] ar) {		
 		//#1. 같은 자료형간의 연산
 		int value1 = 3+5;
 		int value2 = 8/5;
@@ -21,7 +22,6 @@ public class EX06_OperationBetweenDataType {
 		System.out.println("value5="+value5);
 		
 		//#2. 다른 자료형간의 연산 (범위가 넓은 쪽으로 자동캐스팅)
-
 		//int value6 = 5 + 3.5; //오류
 		double value6 = 5 + 3.5;
 		int value7 = 5 + (int)3.5;
@@ -36,7 +36,6 @@ public class EX06_OperationBetweenDataType {
 		System.out.println("value7="+value7); 
 		System.out.println("value8="+value8);
 		System.out.println("value9="+value9);
-		System.out.println("value10="+value10);
-				
+		System.out.println("value10="+value10);				
 	}
 }

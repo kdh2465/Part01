@@ -1,6 +1,9 @@
 package pack04_controlstatement.EX02_SwitchControlStatement;
 
+/*switch 선택제어문(break 미포함, break 포함, if문 변환)*/
+
 public class EX02_SwitchControlStatement {
+
 	public static void main(String[] args) {
 		
 		//#1. break이 포함되지 않는 경우 

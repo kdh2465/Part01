@@ -1,8 +1,10 @@
 package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX05_TypeCasting_2;
 
+/*자동타입변환과 수동타입변환*/
+
 public class EX05_TypeCasting_2 {
-	public static void main(String[] ar) {
-		
+	
+	public static void main(String[] ar) {		
 		//#1. 자동타입변환
 		float value1 = 3;
 		long value2 = 5;
@@ -23,7 +25,7 @@ public class EX05_TypeCasting_2 {
 		
 		System.out.println("value6="+value6); //-128
 		System.out.println("value7="+value7);
-		System.out.println("value8="+value8);
-		
+		System.out.println("value8="+value8);		
 	}
+	
 }

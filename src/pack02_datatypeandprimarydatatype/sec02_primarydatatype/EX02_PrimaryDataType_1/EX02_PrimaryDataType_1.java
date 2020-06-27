@@ -1,8 +1,9 @@
 package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX02_PrimaryDataType_1;
 
+/*부울대수/정수/실수 값의 저장 및 출력*/
+
 public class EX02_PrimaryDataType_1 {
-	public static void main(String[] ar) {
-		
+	public static void main(String[] ar) {		
 		//#1. 부울대수 (boolean) : true/false
 		boolean bool1 = true;
 		boolean bool2 = false;
@@ -25,7 +26,6 @@ public class EX02_PrimaryDataType_1 {
 		double value7 = 5;
 		System.out.println("value5="+value5); //1.2
 		System.out.println("value6="+value6); //-1.5
-		System.out.println("value7="+value7); //5.0		
-		
+		System.out.println("value7="+value7); //5.0
 	}
 }

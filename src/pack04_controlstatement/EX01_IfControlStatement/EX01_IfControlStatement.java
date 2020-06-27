@@ -1,8 +1,9 @@
 package pack04_controlstatement.EX01_IfControlStatement;
 
+/*세 가지 TYPE의 if 제어문*/
+
 public class EX01_IfControlStatement {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#1. Type1 : if
 		int value1 = 5;
 		
@@ -64,8 +65,7 @@ public class EX01_IfControlStatement {
 		else {
 		  System.out.println("F학점");
 		}
-		
-		
+				
 		if(value3>=70 && value3<80) {
 		  System.out.println("C학점");
 		}

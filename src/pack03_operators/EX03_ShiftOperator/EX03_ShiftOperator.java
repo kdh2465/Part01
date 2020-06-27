@@ -1,9 +1,11 @@
 package pack03_operators.EX03_ShiftOperator;
 
+/*산술쉬프트와 논리쉬프트*/
+
 public class EX03_ShiftOperator {
-	public static void main(String[] args) {
-		
-		//#1. 논리쉬프트 (부호변화 없음)
+	
+	public static void main(String[] args) {		
+		//#1. 산술쉬프트 (부호변화 없음)
 		//@ << Left Shift
 		System.out.println(3<<1);	//6
 		System.out.println(-3<<1); 	//-6
@@ -19,9 +21,8 @@ public class EX03_ShiftOperator {
 		System.out.println(-5>>2); 	//-2
 		
 		System.out.println();
-		
-		
-		//#2. 산술쉬프트 (>>>)		
+				
+		//#2. 논리쉬프트 (>>>)		
 		System.out.println(3>>>1);		//1
 		System.out.println(-3>>>31);	//1
 	}

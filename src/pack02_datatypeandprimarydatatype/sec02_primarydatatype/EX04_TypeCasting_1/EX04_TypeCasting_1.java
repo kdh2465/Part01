@@ -1,8 +1,10 @@
 package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX04_TypeCasting_1;
 
+/*두 가지 캐스팅 방법*/
+
 public class EX04_TypeCasting_1 {
-	public static void main(String[] ar) {
-		
+	
+	public static void main(String[] ar) {		
 		//#1. 캐스팅
 		//#1-1. 캐스팅 방법1 (데이터타입)
 		int value1 = (int)5.3;
@@ -24,7 +26,6 @@ public class EX04_TypeCasting_1 {
 		System.out.println("value5="+value5);
 		System.out.println("value6="+value6);
 		System.out.println("value7="+value7);
-		System.out.println("value8="+value8);
-	
+		System.out.println("value8="+value8);	
 	}
 }

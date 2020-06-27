@@ -1,5 +1,7 @@
 package pack03_operators.EX07_ConditionalOperator;
 
+/*»ïÇ× ¿¬»êÀÚ*/
+
 public class EX07_ConditionalOperator {
 	public static void main(String[] args) {
 		
@@ -18,6 +20,7 @@ public class EX07_ConditionalOperator {
 			System.out.println("Â¦¼ö");
 		else
 			System.out.println("È¦¼ö");
+			
 	}
 }
 

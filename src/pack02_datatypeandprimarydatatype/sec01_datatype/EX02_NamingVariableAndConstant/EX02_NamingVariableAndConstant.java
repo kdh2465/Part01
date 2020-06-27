@@ -1,11 +1,12 @@
 package pack02_datatypeandprimarydatatype.sec01_datatype.EX02_NamingVariableAndConstant;
 
+/*변수와 상수의 이름 짓기*/
+
 public class EX02_NamingVariableAndConstant {
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#1. 변수의 이름 짓기
-		boolean aBcD;
+		boolean aBcD; //가능은 하지만 권고사항 위배
 		byte 가나다;
 		short _abcd;
 		char $ab_cd;
@@ -20,7 +21,6 @@ public class EX02_NamingVariableAndConstant {
 		//#2. 상수 이름 짓기
 		final double PI;
 		final int MY_DATA;
-		final float myData; //가능은 하지만 권고사항 위배
-		
+		final float myData; //가능은 하지만 권고사항 위배		
 	}
 }

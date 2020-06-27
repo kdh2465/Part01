@@ -1,8 +1,10 @@
 package pack05_referencedatatype.sec01_array.EX09_2DReadArrayData;
 
+/*2차원 배열의 원소값 출력*/
+
 public class EX09_2DReadArrayData {
-	public static void main(String[] args) {
-		
+	
+	public static void main(String[] args) {		
 		//#1. 2차원 배열의 길이 구하기 (length)
 		//@1-1. 정방행렬
 		int[][] array1 = new int[2][3];
@@ -26,16 +28,14 @@ public class EX09_2DReadArrayData {
 		System.out.println(array2[1][0]);
 		System.out.println(array2[1][1]);
 		System.out.println(array2[1][2]);		
-		System.out.println();
-		
+		System.out.println();		
 		
 		//#3. 출력방법2. for 반복문으로 출력하기
 		for(int i=0; i<array2.length; i++)
 			for(int j=0; j<array2[i].length; j++)
 				System.out.println(array2[i][j]); //1,2,3,4,5
 		System.out.println();
-		
-		
+				
 		//#4. 출력방법3. for-each 반복문 사용하여 출력하기
 		for (int[] array : array2) {
 			for(int k : array){

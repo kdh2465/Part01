@@ -1,8 +1,10 @@
 package pack04_controlstatement.EX04_WhileControlStatement;
 
+/*while 반복제어문의 기본문법구조, for로 변환, 특수한 형태, 무한루프 탈출*/
+
 public class EX04_WhileControlStatement {
-	public static void main(String[] args) {
-		
+	
+	public static void main(String[] args) {		
 		//#1. while 기본문법 구조 
 		int a=0;
 		while(a<10){
@@ -31,9 +33,9 @@ public class EX04_WhileControlStatement {
 		System.out.println();
 		
 		//#2. while문의 특수한 형태 (무한루프)		
-//		while(true) {
-//			System.out.println("무한루프");
-//		}
+		//while(true) {
+		//System.out.println("무한루프");
+		//}
 		
 		//#3. 무한루프에서 탈출하기 (break)
 		int c=0;
@@ -43,7 +45,6 @@ public class EX04_WhileControlStatement {
 		  }
 		  System.out.print(c+" ");
 		  c++;
-		} //0 1 2 ... 10
-		
+		} //0 1 2 ... 10		
 	}
 }

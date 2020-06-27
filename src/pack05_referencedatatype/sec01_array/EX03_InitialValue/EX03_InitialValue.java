@@ -2,6 +2,8 @@ package pack05_referencedatatype.sec01_array.EX03_InitialValue;
 
 import java.util.Arrays;
 
+/*스택메모리의 초기값과 참조자료형의 강제초기값*/
+
 public class EX03_InitialValue {
 	public static void main(String[] args) {
 		
@@ -14,8 +16,7 @@ public class EX03_InitialValue {
 		int[] value4 = null;
 		System.out.println(value3); //0
 		System.out.println(value4); //null
-		
-				
+						
 		//#2. 참조자료형 초기값 (Heap 메모리 값은 강제 초기화)
 		boolean[] array1 = new boolean[3];
 		for(int i=0; i<3; i++) 

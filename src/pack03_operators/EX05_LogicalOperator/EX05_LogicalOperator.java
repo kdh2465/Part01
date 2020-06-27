@@ -1,8 +1,10 @@
 package pack03_operators.EX05_LogicalOperator;
 
+/*논리연산자와 비트연산자를 이용한 논리연산*/
+
 public class EX05_LogicalOperator {
+	
 	public static void main(String[] args) {
-		
 		//#1. 논리연산자
 		//@ 논리 AND 연산자 (&&)
 		System.out.println(true && true);		//true
@@ -32,8 +34,7 @@ public class EX05_LogicalOperator {
 		System.out.println((5>=5) || !(7>2)); 	//true
 		System.out.println();		
 		
-		//#2. 비트 연산자를 이용한 논리연산 (AND(&), OR(|))
-		
+		//#2. 비트 연산자를 이용한 논리연산 (AND(&), OR(|))		
 		//@논리연산자와 동일한 결과
 		System.out.println(true & true);	//true
 		System.out.println(true & false);	//false
@@ -56,7 +57,6 @@ public class EX05_LogicalOperator {
 		
 		int value4 = 3;
 		System.out.println(true | ++value4>6);//true
-		System.out.println(value4);				//4
-				
+		System.out.println(value4);				//4				
 	}
 }

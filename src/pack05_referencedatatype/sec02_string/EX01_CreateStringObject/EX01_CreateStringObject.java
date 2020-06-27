@@ -1,6 +1,8 @@
-package pack05_referencedatatype.sec02_string.EX01_SreateStringObject;
+package pack05_referencedatatype.sec02_string.EX01_CreateStringObject;
 
-public class EX01_SreateStringObject {
+/*String 按眉 积己狼 滴 啊瘤 规过*/
+
+public class EX01_CreateStringObject {
 	public static void main(String[] args) {
 		
 		//#1. String 按眉 积己 规过 1
@@ -9,7 +11,6 @@ public class EX01_SreateStringObject {
 		
 		//#2. String 按眉 积己 规过 2
 		String str2 = "救崇窍技夸";
-		System.out.println(str2);
-		
+		System.out.println(str2);		
 	}
 }

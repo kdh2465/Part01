@@ -1,5 +1,7 @@
 package pack05_referencedatatype.sec01_array.EX01_ArrayDefinition;
 
+/*1차원 배열의 두 가지 선언방법과 다양한 배열 선언*/
+
 public class EX01_ArrayDefinition {
 	public static void main(String[] args) {
 		

@@ -1,8 +1,10 @@
 package pack04_controlstatement.EX06_OverlapedControlStatement;
 
+/*제어문의 중복*/
+
 public class EX06_OverlapedControlStatement {
-	public static void main(String[] args) {
-		
+	
+	public static void main(String[] args) {		
 		//#1. if-if 중복
 		int value1=5, value2=3;
 		if(value1>5){
@@ -15,8 +17,7 @@ public class EX06_OverlapedControlStatement {
 		}
 		else {
 			System.out.println("실행3"); //실행
-		}
-		
+		}		
 		
 		//#2. switch-for 중복
 		int value3=2;
@@ -31,10 +32,9 @@ public class EX06_OverlapedControlStatement {
 				System.out.print(k+" ");				
 			}
 			break;
-		} //10 8 6 4 2
+		} //10 8 6 4 2		
 		
-		
-		//#3. for-for-while 중복
+		//#3. for-for-if 중복
 		for(int i=0; i<3; i++){
 			for(int j=0; j<5; j++){
 				System.out.println(i+" "+j);
@@ -42,7 +42,6 @@ public class EX06_OverlapedControlStatement {
 					System.out.println("i=j");					
 				}
 			}
-		}
-		
+		}		
 	}
 }

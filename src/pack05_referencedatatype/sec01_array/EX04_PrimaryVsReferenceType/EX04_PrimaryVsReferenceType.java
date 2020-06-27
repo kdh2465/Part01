@@ -1,5 +1,7 @@
 package pack05_referencedatatype.sec01_array.EX04_PrimaryVsReferenceType;
 
+/*기본자료형 vs. 참조자료형의 특징 비교*/
+
 public class EX04_PrimaryVsReferenceType {
 	public static void main(String[] args) {
 		

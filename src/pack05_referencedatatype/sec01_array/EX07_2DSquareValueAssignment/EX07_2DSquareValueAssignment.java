@@ -1,6 +1,9 @@
 package pack05_referencedatatype.sec01_array.EX07_2DSquareValueAssignment;
 
+/*2차원 정방행렬 배열의 4가지 원소값 대입 방법*/
+
 public class EX07_2DSquareValueAssignment {
+	
 	public static void main(String[] args) {
 		
 		//#1. 배열 원소의 값 대입 (방법 1)
@@ -26,8 +29,7 @@ public class EX07_2DSquareValueAssignment {
 		System.out.println(array2[1][0] + " "+array2[1][1] + " "+array2[1][2]);
 		
 		System.out.println();
-		
-		
+				
 		//#2. 배열 원소의 값 대입 (방법 2)
 		int[][] array3 = new int[][]{{1,2,3},{4,5,6}};
 		System.out.println(array3[0][0] + " "+array3[0][1] + " "+array3[0][2]);
@@ -39,12 +41,16 @@ public class EX07_2DSquareValueAssignment {
 		System.out.println(array4[1][0] + " "+array4[1][1] + " "+array4[1][2]);
 		
 		System.out.println();
-		
-		
+				
 		//#3. 배열 원소의 값 대입 (방법 3)
-		int[][] array5 = {{1,2,3},{4,5,6}}; //분리 불가
+		int[][] array5 = new int[][]{{1,2,3},{4,5,6}}; //분리 가능
 		System.out.println(array5[0][0] + " "+array5[0][1] + " "+array5[0][2]);
 		System.out.println(array5[1][0] + " "+array5[1][1] + " "+array5[1][2]);
+				
+		//#4. 배열 원소의 값 대입 (방법 4)
+		int[][] array6 = {{1,2,3},{4,5,6}}; //분리 불가
+		System.out.println(array6[0][0] + " "+array6[0][1] + " "+array6[0][2]);
+		System.out.println(array6[1][0] + " "+array6[1][1] + " "+array6[1][2]);
 					
 	}
 }

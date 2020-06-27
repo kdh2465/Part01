@@ -1,6 +1,9 @@
 package pack03_operators.EX06_AssignmentOperator;
 
+/*대입연산자 및 축약표현*/
+
 public class EX06_AssignmentOperator {
+	
 	public static void main(String[] args) {
 		
 		//#1. 대입연산자 및 축약표현

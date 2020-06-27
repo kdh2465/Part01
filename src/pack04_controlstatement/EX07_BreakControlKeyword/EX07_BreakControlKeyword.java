@@ -1,8 +1,10 @@
 package pack04_controlstatement.EX07_BreakControlKeyword;
 
+/*break을 이용한 반복문 탈출 (단일반복문, 다중 반복문)*/
+
 public class EX07_BreakControlKeyword {
-	public static void main(String[] args) {
-		
+	
+	public static void main(String[] args) {		
 		//#1. 단일 loop break 탈출
 		for(int i=0; i<10; i++){		  
 			System.out.println(i);
@@ -52,7 +54,6 @@ public class EX07_BreakControlKeyword {
 				}
 				System.out.println(i+", "+j);
 			}
-		} //0,0 0,1		
-		
+		} //0,0 0,1				
 	}
 }

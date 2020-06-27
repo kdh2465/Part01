@@ -1,8 +1,10 @@
 package pack04_controlstatement.EX05_DoWhileControlStatement;
 
+/*do-while의 기본문법구조, do-while vs. while의 비교*/
+
 public class EX05_DoWhileControlStatement {
-	public static void main(String[] args) {
-		
+
+	public static void main(String[] args) {		
 		//#1. do-while 기본문법 구조 
 		//@ 반복회수가 0일때의 while과 do-while
 		//while
@@ -56,7 +58,6 @@ public class EX05_DoWhileControlStatement {
 		  System.out.print(a+" ");
 		  a++;
 		} while(a<10);
-		System.out.println();
-		
+		System.out.println();		
 	}
 }

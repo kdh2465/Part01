@@ -1,8 +1,10 @@
 package pack05_referencedatatype.sec01_array.EX05_ReadArrayData;
 
+/*1차원 배열의 원소값 출력*/
+
 public class EX05_ReadArrayData {
-	public static void main(String[] args) {
-		
+	
+	public static void main(String[] args) {		
 		int[] array = new int[]{3,4,5,6,7};
 		
 		//#1. 배열의 길이 구하기 (length)
@@ -25,14 +27,5 @@ public class EX05_ReadArrayData {
 		//#4. 출력방법3. for-each 반복문 사용하여 출력하기
 		for (int k : array)
 			System.out.println(k);		
-		
-		int[] a[];
-		a=new int[][] {{1,2},{3,4}};
-		System.out.println(a[0][0]);
-		System.out.println(a[0][1]);
-		System.out.println(a[1][0]);
-		System.out.println(a[1][1]);
-		
-										
 	}
 }

@@ -1,5 +1,7 @@
 package pack05_referencedatatype.sec02_string.EX03_SharingStringObject;
 
+/*문자열 리터럴에 의한 생성 문자열 객체의 공유*/
+
 public class EX03_SharingStringObject {
 	public static void main(String[] args) {
 		
@@ -14,7 +16,7 @@ public class EX03_SharingStringObject {
 		System.out.println(str1==str2); //false
 		System.out.println(str2==str3); //true
 		System.out.println(str3==str4); //false
-		System.out.println(str4==str1); //false		
+		System.out.println(str4==str1); //false	
 		
 	}
 }

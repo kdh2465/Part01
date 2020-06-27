@@ -1,5 +1,7 @@
 package pack04_controlstatement.EX03_ForControlStatement;
 
+/*for 반복제어문의 기본문법구조, 특수한 형태, 무한루프에서 탈출하기*/
+
 public class EX03_ForControlStatement {
 	public static void main(String[] args) {
 		
@@ -37,13 +39,13 @@ public class EX03_ForControlStatement {
 		
 		//#2. for문의 특수한 형태 (무한루프)
 		//@ 무한루프 1
-//		for(int i=0; ; i++){
-//		  System.out.println("무한루프");
-//		}
+		//for(int i=0; ; i++){
+		//System.out.println("무한루프");
+		//}
 		//@ 무한루프 2
-//		for(;;) {
-//		  System.out.println("무한루프");
-//		}
+		//for(;;) {
+		//System.out.println("무한루프");
+		//}
 		
 		//#3. 무한루프에서 탈출하기 (break)
 		for(int i=0; ; i++){
@@ -52,6 +54,5 @@ public class EX03_ForControlStatement {
 		  }
 		  System.out.println(i+" ");
 		}
-
 	}
 }
