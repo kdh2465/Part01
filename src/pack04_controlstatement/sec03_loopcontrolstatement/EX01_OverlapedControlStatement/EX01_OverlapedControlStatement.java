@@ -1,8 +1,8 @@
-package pack04_controlstatement.EX06_OverlapedControlStatement;
+package pack04_controlstatement.sec03_loopcontrolstatement.EX01_OverlapedControlStatement;
 
 /*제어문의 중복*/
 
-public class EX06_OverlapedControlStatement {
+public class EX01_OverlapedControlStatement {
 	
 	public static void main(String[] args) {		
 		//#1. if-if 중복

@@ -1,4 +1,4 @@
-package pack04_controlstatement.EX01_IfControlStatement;
+package pack04_controlstatement.sec01_selectcontrolstatement.EX01_IfControlStatement;
 
 /*세 가지 TYPE의 if 제어문*/
 

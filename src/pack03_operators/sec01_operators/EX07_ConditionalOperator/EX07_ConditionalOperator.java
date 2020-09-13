@@ -1,4 +1,4 @@
-package pack03_operators.EX07_ConditionalOperator;
+package pack03_operators.sec01_operators.EX07_ConditionalOperator;
 
 /*삼항 연산자*/
 

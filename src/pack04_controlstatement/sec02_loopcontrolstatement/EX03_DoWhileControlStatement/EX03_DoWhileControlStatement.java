@@ -1,8 +1,8 @@
-package pack04_controlstatement.EX05_DoWhileControlStatement;
+package pack04_controlstatement.sec02_loopcontrolstatement.EX03_DoWhileControlStatement;
 
 /*do-while의 기본문법구조, do-while vs. while의 비교*/
 
-public class EX05_DoWhileControlStatement {
+public class EX03_DoWhileControlStatement {
 
 	public static void main(String[] args) {		
 		//#1. do-while 기본문법 구조 

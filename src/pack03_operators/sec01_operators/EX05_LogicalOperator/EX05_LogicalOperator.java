@@ -1,4 +1,4 @@
-package pack03_operators.EX05_LogicalOperator;
+package pack03_operators.sec01_operators.EX05_LogicalOperator;
 
 /*논리연산자와 비트연산자를 이용한 논리연산*/
 

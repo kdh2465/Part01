@@ -1,4 +1,4 @@
-package pack03_operators.EX01_ArithmeticOperator;
+package pack03_operators.sec01_operators.EX01_ArithmeticOperator;
 
 /*산술연산자와 세가지 경우의 증감연산자*/
 

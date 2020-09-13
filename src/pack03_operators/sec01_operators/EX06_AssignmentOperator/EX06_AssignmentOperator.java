@@ -1,4 +1,4 @@
-package pack03_operators.EX06_AssignmentOperator;
+package pack03_operators.sec01_operators.EX06_AssignmentOperator;
 
 /*대입연산자 및 축약표현*/
 

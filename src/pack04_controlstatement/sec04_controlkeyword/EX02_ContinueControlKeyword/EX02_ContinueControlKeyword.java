@@ -1,8 +1,8 @@
-package pack04_controlstatement.EX08_ContinueControlKeyword;
+package pack04_controlstatement.sec04_controlkeyword.EX02_ContinueControlKeyword;
 
 /*continue 제어키워드 (단일 반복문 및 다중 반복문)*/
 
-public class EX08_ContinueControlKeyword {
+public class EX02_ContinueControlKeyword {
 	
 	public static void main(String[] args) {
 		// #1. 단일 loop continue

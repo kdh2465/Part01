@@ -1,4 +1,4 @@
-package pack03_operators.EX04_RelationalOperator;
+package pack03_operators.sec01_operators.EX04_RelationalOperator;
 
 /*크기비교 및 등가비교와 참조자료형의 등가비교*/
 

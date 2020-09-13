@@ -12,7 +12,7 @@ public class EX06_OperationBetweenDataType {
 		
 		byte data1 = 3;
 		byte data2 = 5;
-		//byte value5 = b1 + b2; //오류 (byte, short는 연산시 int로 변환되어 연산 수행)
+		//byte value5 = data1 + data2; //오류 (byte, short는 연산시 int로 변환되어 연산 수행)
 		int value5 = data1 + data2;
 		
 		System.out.println("value1="+value1);

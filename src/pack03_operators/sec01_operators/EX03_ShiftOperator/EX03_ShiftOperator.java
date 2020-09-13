@@ -1,4 +1,4 @@
-package pack03_operators.EX03_ShiftOperator;
+package pack03_operators.sec01_operators.EX03_ShiftOperator;
 
 /*산술쉬프트와 논리쉬프트*/
 

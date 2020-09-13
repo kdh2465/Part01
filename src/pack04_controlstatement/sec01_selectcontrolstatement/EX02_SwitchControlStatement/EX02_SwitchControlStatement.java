@@ -1,4 +1,4 @@
-package pack04_controlstatement.EX02_SwitchControlStatement;
+package pack04_controlstatement.sec01_selectcontrolstatement.EX02_SwitchControlStatement;
 
 /*switch 선택제어문(break 미포함, break 포함, if문 변환)*/
 

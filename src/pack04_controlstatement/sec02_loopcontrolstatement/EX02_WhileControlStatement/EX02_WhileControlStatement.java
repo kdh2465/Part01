@@ -1,8 +1,8 @@
-package pack04_controlstatement.EX04_WhileControlStatement;
+package pack04_controlstatement.sec02_loopcontrolstatement.EX02_WhileControlStatement;
 
 /*while 반복제어문의 기본문법구조, for로 변환, 특수한 형태, 무한루프 탈출*/
 
-public class EX04_WhileControlStatement {
+public class EX02_WhileControlStatement {
 	
 	public static void main(String[] args) {		
 		//#1. while 기본문법 구조 
