@@ -27,7 +27,11 @@ public class EX02_ValueAssignment {
 		System.out.println(array4[0] + " "+array4[1] + " "+array4[2]);
 				
 		//#3. 배열 원소의 값 대입 (방법 3)
-		int[] array5 = {3,4,5};
-		System.out.println(array5[0] + " "+array5[1] + " "+array5[2]);					
+		int[] array5 = {3, 4, 5};
+		System.out.println(array5[0]+ " "+ array5[1]+ " " + array5[2]);
+		
+//		int[] array6;
+//		array6 = {3, 4, 5}; // 불가능
+//		System.out.println(array6[0]+ " "+ array6[1]+ " " + array6[2]);					
 	}
 }

@@ -12,12 +12,13 @@ public class EX03_InitialValue {
 		//System.out.println(value1);//오류
 		int[] value2;
 		//System.out.println(value2);//오류
+		
 		int value3 = 0;
 		int[] value4 = null;
 		System.out.println(value3); //0
 		System.out.println(value4); //null
 						
-		//#2. 참조자료형 초기값 (Heap 메모리 값은 강제 초기화)
+		//#2. Heap 메모리 값은 강제 초기화
 		boolean[] array1 = new boolean[3];
 		for(int i=0; i<3; i++) 
 			System.out.print(array1[i]+"   ");

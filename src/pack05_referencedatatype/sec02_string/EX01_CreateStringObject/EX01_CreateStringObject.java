@@ -12,5 +12,6 @@ public class EX01_CreateStringObject {
 		//#2. String 按眉 积己 规过 2
 		String str2 = "救崇窍技夸";
 		System.out.println(str2);		
+		
 	}
 }

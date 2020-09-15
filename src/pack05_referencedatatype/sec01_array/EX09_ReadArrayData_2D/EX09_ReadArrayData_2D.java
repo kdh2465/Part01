@@ -1,8 +1,8 @@
-package pack05_referencedatatype.sec01_array.EX09_2DReadArrayData;
+package pack05_referencedatatype.sec01_array.EX09_ReadArrayData_2D;
 
 /*2차원 배열의 원소값 출력*/
 
-public class EX09_2DReadArrayData {
+public class EX09_ReadArrayData_2D {
 	
 	public static void main(String[] args) {		
 		//#1. 2차원 배열의 길이 구하기 (length)
