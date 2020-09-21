@@ -1,48 +1,48 @@
-package pack03_operators.sec01_operators.EX05_LogicalOperator;
+ï»¿package pack03_operators.sec01_operators.EX05_LogicalOperator;
 
-/*³í¸®¿¬»êÀÚ¿Í ºñÆ®¿¬»êÀÚ¸¦ ÀÌ¿ëÇÑ ³í¸®¿¬»ê*/
+/*ë…¼ë¦¬ì—°ì‚°ìì™€ ë¹„íŠ¸ì—°ì‚°ìë¥¼ ì´ìš©í•œ ë…¼ë¦¬ì—°ì‚°*/
 
 public class EX05_LogicalOperator {
 	
 	public static void main(String[] args) {
-		//#1. ³í¸®¿¬»êÀÚ
-		//@ ³í¸® AND ¿¬»êÀÚ (&&)
+		//#1. ë…¼ë¦¬ì—°ì‚°ì
+		//@ ë…¼ë¦¬ AND ì—°ì‚°ì (&&)
 		System.out.println(true && true);		//true
 		System.out.println(true && false); 		//false
 		System.out.println(false && (5<3)); 	//false
 		System.out.println((5>=5) && (7>2)); 	//true
 		System.out.println();
 		
-		//@ ³í¸® OR ¿¬»êÀÚ (||)
+		//@ ë…¼ë¦¬ OR ì—°ì‚°ì (||)
 		System.out.println(true || true);		//true
 		System.out.println(true || false); 		//true
 		System.out.println(false || (5<3)); 	//false
 		System.out.println((5>=5) || (7>2)); 	//true
 		System.out.println();
 		
-		//@ ³í¸® XOR ¿¬»êÀÚ (||)
+		//@ ë…¼ë¦¬ XOR ì—°ì‚°ì (||)
 		System.out.println(true ^ true);		//false
 		System.out.println(true ^ false); 		//true
 		System.out.println(false ^ (5<3)); 		//false
 		System.out.println((5>=5) ^ (7>2)); 	//false
 		System.out.println();
 		
-		//@ ³í¸® NOT ¿¬»êÀÚ (!)
+		//@ ë…¼ë¦¬ NOT ì—°ì‚°ì (!)
 		System.out.println(!true);				//false
 		System.out.println(!false); 			//true
 		System.out.println(false || !(5<3)); 	//true
 		System.out.println((5>=5) || !(7>2)); 	//true
 		System.out.println();		
 		
-		//#2. ºñÆ® ¿¬»êÀÚ¸¦ ÀÌ¿ëÇÑ ³í¸®¿¬»ê (AND(&), OR(|))		
-		//@³í¸®¿¬»êÀÚ¿Í µ¿ÀÏÇÑ °á°ú
+		//#2. ë¹„íŠ¸ ì—°ì‚°ìë¥¼ ì´ìš©í•œ ë…¼ë¦¬ì—°ì‚° (AND(&), OR(|))		
+		//@ë…¼ë¦¬ì—°ì‚°ìì™€ ë™ì¼í•œ ê²°ê³¼
 		System.out.println(true & true);	//true
 		System.out.println(true & false);	//false
 		System.out.println(true | (5<3));	//true
 		System.out.println((5>=5) | (7>2));	//true
 		System.out.println();
 		
-		//@³í¸®¿¬»êÀÚ¿ÍÀÇ Â÷ÀÌÁ¡ (Short Circuit)
+		//@ë…¼ë¦¬ì—°ì‚°ìì™€ì˜ ì°¨ì´ì  (Short Circuit)
 		int value1 = 3;
 		System.out.println(false && ++value1>6);//false
 		System.out.println(value1);				//3

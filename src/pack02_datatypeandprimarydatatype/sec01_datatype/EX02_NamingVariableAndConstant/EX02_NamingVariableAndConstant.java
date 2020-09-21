@@ -1,13 +1,13 @@
-package pack02_datatypeandprimarydatatype.sec01_datatype.EX02_NamingVariableAndConstant;
+ï»¿package pack02_datatypeandprimarydatatype.sec01_datatype.EX02_NamingVariableAndConstant;
 
-/*º¯¼ö¿Í »ó¼öÀÇ ÀÌ¸§ Áş±â*/
+/*ë³€ìˆ˜ì™€ ìƒìˆ˜ì˜ ì´ë¦„ ì§“ê¸°*/
 
 public class EX02_NamingVariableAndConstant {
 	
 	public static void main(String[] args) {		
-		//#1. º¯¼öÀÇ ÀÌ¸§ Áş±â
-		boolean aBcD; //°¡´ÉÀº ÇÏÁö¸¸ ±Ç°í»çÇ× À§¹è
-		byte °¡³ª´Ù;
+		//#1. ë³€ìˆ˜ì˜ ì´ë¦„ ì§“ê¸°
+		boolean aBcD; //ê°€ëŠ¥ì€ í•˜ì§€ë§Œ ê¶Œê³ ì‚¬í•­ ìœ„ë°°
+		byte ê°€ë‚˜ë‹¤;
 		short _abcd;
 		char $ab_cd;
 		//int 3abcd;	//X
@@ -16,11 +16,11 @@ public class EX02_NamingVariableAndConstant {
 		double main;
 		//int my Work;	//X
 		String ourClassName;		
-		int ABC; //°¡´ÉÀº ÇÏÁö¸¸ ±Ç°í»çÇ× À§¹è
+		int ABC; //ê°€ëŠ¥ì€ í•˜ì§€ë§Œ ê¶Œê³ ì‚¬í•­ ìœ„ë°°
 		
-		//#2. »ó¼ö ÀÌ¸§ Áş±â
+		//#2. ìƒìˆ˜ ì´ë¦„ ì§“ê¸°
 		final double PI;
 		final int MY_DATA;
-		final float myData; //°¡´ÉÀº ÇÏÁö¸¸ ±Ç°í»çÇ× À§¹è		
+		final float myData; //ê°€ëŠ¥ì€ í•˜ì§€ë§Œ ê¶Œê³ ì‚¬í•­ ìœ„ë°°		
 	}
 }

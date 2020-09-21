@@ -1,11 +1,11 @@
-package pack03_operators.sec01_operators.EX03_ShiftOperator;
+ï»¿package pack03_operators.sec01_operators.EX03_ShiftOperator;
 
-/*»ê¼ú½¬ÇÁÆ®¿Í ³í¸®½¬ÇÁÆ®*/
+/*ì‚°ìˆ ì‰¬í”„íŠ¸ì™€ ë…¼ë¦¬ì‰¬í”„íŠ¸*/
 
 public class EX03_ShiftOperator {
 	
 	public static void main(String[] args) {		
-		//#1. »ê¼ú½¬ÇÁÆ® (ºÎÈ£º¯È­ ¾øÀ½)
+		//#1. ì‚°ìˆ ì‰¬í”„íŠ¸ (ë¶€í˜¸ë³€í™” ì—†ìŒ)
 		//@ << Left Shift
 		System.out.println(3<<1);	//6
 		System.out.println(-3<<1); 	//-6
@@ -22,7 +22,7 @@ public class EX03_ShiftOperator {
 		
 		System.out.println();
 				
-		//#2. ³í¸®½¬ÇÁÆ® (>>>)		
+		//#2. ë…¼ë¦¬ì‰¬í”„íŠ¸ (>>>)		
 		System.out.println(3>>>1);		//1
 		System.out.println(-3>>>31);	//1
 	}

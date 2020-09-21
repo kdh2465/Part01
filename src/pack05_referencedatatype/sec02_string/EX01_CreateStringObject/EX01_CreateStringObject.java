@@ -1,16 +1,16 @@
-package pack05_referencedatatype.sec02_string.EX01_CreateStringObject;
+ï»¿package pack05_referencedatatype.sec02_string.EX01_CreateStringObject;
 
-/*String °´Ã¼ »ı¼ºÀÇ µÎ °¡Áö ¹æ¹ı*/
+/*String ê°ì²´ ìƒì„±ì˜ ë‘ ê°€ì§€ ë°©ë²•*/
 
 public class EX01_CreateStringObject {
 	public static void main(String[] args) {
 		
-		//#1. String °´Ã¼ »ı¼º ¹æ¹ı 1
-		String str1 = new String("¾È³ç");
+		//#1. String ê°ì²´ ìƒì„± ë°©ë²• 1
+		String str1 = new String("ì•ˆë…•");
 		System.out.println(str1);
 		
-		//#2. String °´Ã¼ »ı¼º ¹æ¹ı 2
-		String str2 = "¾È³çÇÏ¼¼¿ä";
+		//#2. String ê°ì²´ ìƒì„± ë°©ë²• 2
+		String str2 = "ì•ˆë…•í•˜ì„¸ìš”";
 		System.out.println(str2);		
 		
 	}

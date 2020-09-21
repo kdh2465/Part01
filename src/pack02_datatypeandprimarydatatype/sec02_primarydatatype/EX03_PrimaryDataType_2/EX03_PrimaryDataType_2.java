@@ -1,30 +1,30 @@
-package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX03_PrimaryDataType_2;
+ï»¿package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX03_PrimaryDataType_2;
 
-/*¹®ÀÚ °ªÀÇ ´Ù¾çÇÑ ÀúÀå¹æ¹ı ¹× Ãâ·Â*/
+/*ë¬¸ì ê°’ì˜ ë‹¤ì–‘í•œ ì €ì¥ë°©ë²• ë° ì¶œë ¥*/
 
 public class EX03_PrimaryDataType_2 {
 	
 	public static void main(String[] ar) {		
-		//#4. ¹®ÀÚ(char) : ¹®ÀÚ, Á¤¼ö
-		//#4-1. ¹®ÀÚ·Î ÀúÀåÇÏ´Â °æ¿ì
+		//#4. ë¬¸ì(char) : ë¬¸ì, ì •ìˆ˜
+		//#4-1. ë¬¸ìë¡œ ì €ì¥í•˜ëŠ” ê²½ìš°
 		char value1 = 'A';		
-		char value2 = '°¡';
+		char value2 = 'ê°€';
 		char value3 = '3';
 		
 		System.out.println("value1="+value1);
 		System.out.println("value2="+value2);
 		System.out.println("value3="+value3);
 		
-		//#4-2. Á¤¼ö·Î ÀúÀåÇÏ´Â °æ¿ì 
-		char value4 = 65; //10Áø¼ö
-		char value5 = 0xac00; //16Áø¼ö
-		char value6 = 51; //10Áø¼ö
+		//#4-2. ì •ìˆ˜ë¡œ ì €ì¥í•˜ëŠ” ê²½ìš° 
+		char value4 = 65; //10ì§„ìˆ˜
+		char value5 = 0xac00; //16ì§„ìˆ˜
+		char value6 = 51; //10ì§„ìˆ˜
 		
 		System.out.println("value4="+value4);
 		System.out.println("value5="+value5);
 		System.out.println("value6="+value6);
 		
-		//#4-3. À¯´ÏÄÚµå·Î ÀúÀåÇÏ´Â °æ¿ì
+		//#4-3. ìœ ë‹ˆì½”ë“œë¡œ ì €ì¥í•˜ëŠ” ê²½ìš°
 		char value7 = '\u0041';
 		char value8 = '\uac00';
 		char value9 = '\u0033';

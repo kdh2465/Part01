@@ -1,22 +1,22 @@
-package pack05_referencedatatype.sec02_string.EX02_ModificationOfStringData;
+ï»¿package pack05_referencedatatype.sec02_string.EX02_ModificationOfStringData;
 
 import java.util.Arrays;
 
-/*String °´Ã¼ÀÇ ¹®ÀÚ¿­ ¼öÁ¤ ¹× ´Ù¸¥ ÂüÁ¶ÀÚ·áÇü°úÀÇ ºñ±³*/
+/*String ê°ì²´ì˜ ë¬¸ìì—´ ìˆ˜ì • ë° ë‹¤ë¥¸ ì°¸ì¡°ìë£Œí˜•ê³¼ì˜ ë¹„êµ*/
 
 public class EX02_ModificationOfStringData {
 	public static void main(String[] args) {
 		
-		//#1. ¹®ÀÚ¿­ ¼öÁ¤ (°´Ã¼³»ÀÇ µ¥ÀÌÅÍ ¼öÁ¤ºÒ°¡-»õ·Î¿î °´Ã¼·Î »ı¼º)
-		String str1 = new String("¾È³ç");
+		//#1. ë¬¸ìì—´ ìˆ˜ì • (ê°ì²´ë‚´ì˜ ë°ì´í„° ìˆ˜ì •ë¶ˆê°€-ìƒˆë¡œìš´ ê°ì²´ë¡œ ìƒì„±)
+		String str1 = new String("ì•ˆë…•");
 		String str2 = str1;
 		
-		str1 = "¾È³çÇÏ¼¼¿ä";
+		str1 = "ì•ˆë…•í•˜ì„¸ìš”";
 		
-		System.out.println(str1); //¾È³çÇÏ¼¼¿ä
-		System.out.println(str2); //¾È³ç
+		System.out.println(str1); //ì•ˆë…•í•˜ì„¸ìš”
+		System.out.println(str2); //ì•ˆë…•
 		
-		//@ ¹è¿­ ÂüÁ¶ÀÚ·áÇü
+		//@ ë°°ì—´ ì°¸ì¡°ìë£Œí˜•
 		int[] array1 = new int[] {3, 4, 5};
 		int[] array2 = array1;
 		array1[0]=6; array1[1]=7; array1[2]=8;

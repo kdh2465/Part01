@@ -1,12 +1,12 @@
-package pack05_referencedatatype.sec02_string.EX06_MethodsOfString_2;
+ï»¿package pack05_referencedatatype.sec02_string.EX06_MethodsOfString_2;
 
 import java.util.Arrays;
 
-/*String Å¬·¡½ºÀÇ ÁÖ¿ä ¸Ş¼­µå2*/
+/*String í´ë˜ìŠ¤ì˜ ì£¼ìš” ë©”ì„œë“œ2*/
 
 public class EX06_MethodsOfString_2 {
 	public static void main(String[] args) {						
-		//#5. ¹®ÀÚ¿­ ¼öÁ¤ 
+		//#5. ë¬¸ìì—´ ìˆ˜ì • 
 		//(toLowerCase(), toUpperCase(), replace(), substring(), split(), trim())		
 		//@toLowerCase(), toUpperCase()
 		String str1 = "Java Study";
@@ -14,7 +14,7 @@ public class EX06_MethodsOfString_2 {
 		System.out.println(str1.toUpperCase()); //JAVA STUDY
 		
 		//@replace(.,.)
-		System.out.println(str1.replace("Study", "°øºÎ")); //Java °øºÎ
+		System.out.println(str1.replace("Study", "ê³µë¶€")); //Java ê³µë¶€
 		
 		//@substring(.)
 		System.out.println(str1.substring(0,5)); //Java
@@ -27,18 +27,18 @@ public class EX06_MethodsOfString_2 {
 		System.out.println("  abc  ".trim()); //abc
 		System.out.println();
 		
-		//#6. ¹®ÀÚ¿­ ³»¿ëºñ±³ (equals(), equalsIgnoreCase(.))
+		//#6. ë¬¸ìì—´ ë‚´ìš©ë¹„êµ (equals(), equalsIgnoreCase(.))
 		String str2 = new String("Java");
 		String str3 = new String("Java");
 		String str4 = new String("java");
 		
-		//@ == ¸Ş¸ğ¸®¹øÁö ºñ±³ (stack ¸Ş¸ğ¸® °ª ºñ±³)
+		//@ == ë©”ëª¨ë¦¬ë²ˆì§€ ë¹„êµ (stack ë©”ëª¨ë¦¬ ê°’ ë¹„êµ)
 		System.out.println(str2==str3); //false
 		System.out.println(str3==str4); //false
 		System.out.println(str2==str4); //false
 		System.out.println();
 		
-		//@ equals(.), equalsIgnoreCase(.) ³»¿ë ºñ±³
+		//@ equals(.), equalsIgnoreCase(.) ë‚´ìš© ë¹„êµ
 		System.out.println(str2.equals(str3));	//true
 		System.out.println(str3.equals(str4));	//false
 		System.out.println(str3.equalsIgnoreCase(str4));	//true											

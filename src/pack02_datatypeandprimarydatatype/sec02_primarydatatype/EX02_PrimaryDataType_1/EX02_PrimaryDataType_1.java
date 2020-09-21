@@ -1,16 +1,16 @@
-package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX02_PrimaryDataType_1;
+ï»¿package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX02_PrimaryDataType_1;
 
-/*ºÎ¿ï´ë¼ö/Á¤¼ö/½Ç¼ö °ªÀÇ ÀúÀå ¹× Ãâ·Â*/
+/*ë¶€ìš¸ëŒ€ìˆ˜/ì •ìˆ˜/ì‹¤ìˆ˜ ê°’ì˜ ì €ì¥ ë° ì¶œë ¥*/
 
 public class EX02_PrimaryDataType_1 {
 	public static void main(String[] ar) {		
-		//#1. ºÎ¿ï´ë¼ö (boolean) : true/false
+		//#1. ë¶€ìš¸ëŒ€ìˆ˜ (boolean) : true/false
 		boolean bool1 = true;
 		boolean bool2 = false;
 		System.out.println("bool1="+bool1); //true
 		System.out.println("bool2="+bool2); //false
 		
-		//#2. Á¤¼ö(byte, short, int, long) : À½ÀÇ Á¤¼ö, 0, ¾çÀÇ Á¤¼ö
+		//#2. ì •ìˆ˜(byte, short, int, long) : ìŒì˜ ì •ìˆ˜, 0, ì–‘ì˜ ì •ìˆ˜
 		byte value1 = 10;
 		short value2 = -10;
 		int value3 = 100;
@@ -20,7 +20,7 @@ public class EX02_PrimaryDataType_1 {
 		System.out.println("value3="+value3); //100
 		System.out.println("value4="+value4); //-100
 		
-		//#3. ½Ç¼ö(float, double) : À½ÀÇ½Ç¼ö, 0, ¾çÀÇ½Ç¼ö
+		//#3. ì‹¤ìˆ˜(float, double) : ìŒì˜ì‹¤ìˆ˜, 0, ì–‘ì˜ì‹¤ìˆ˜
 		float value5 = 1.2F;
 		double value6 = -1.5;
 		double value7 = 5;

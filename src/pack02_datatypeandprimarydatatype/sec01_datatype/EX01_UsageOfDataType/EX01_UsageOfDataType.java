@@ -1,14 +1,14 @@
-package pack02_datatypeandprimarydatatype.sec01_datatype.EX01_UsageOfDataType;
+ï»¿package pack02_datatypeandprimarydatatype.sec01_datatype.EX01_UsageOfDataType;
 
-/*º¯¼öÀÇ ¼±¾ğ ¹× °ª ´ëÀÔÀ» À§ÇÑ µÎ °¡Áö ¹æ¹ı*/
+/*ë³€ìˆ˜ì˜ ì„ ì–¸ ë° ê°’ ëŒ€ì…ì„ ìœ„í•œ ë‘ ê°€ì§€ ë°©ë²•*/
 
 public class EX01_UsageOfDataType {
 	
 	public static void main(String[] args) {
-		//#1. º¯¼öÀÇ ¼±¾ğ ¹× °ª ´ëÀÔ ¹æ¹ı #1
+		//#1. ë³€ìˆ˜ì˜ ì„ ì–¸ ë° ê°’ ëŒ€ì… ë°©ë²• #1
 	    int a = 3;
 	    
-	    //#2. º¯¼öÀÇ ¼±¾ğ ¹× °ª ´ëÀÔ ¹æ¹ı #2
+	    //#2. ë³€ìˆ˜ì˜ ì„ ì–¸ ë° ê°’ ëŒ€ì… ë°©ë²• #2
 	    int b;
 	    b=3;	    
 	}

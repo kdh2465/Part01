@@ -1,25 +1,25 @@
-package pack04_controlstatement.sec03_loopcontrolstatement.EX01_OverlapedControlStatement;
+ï»¿package pack04_controlstatement.sec03_loopcontrolstatement.EX01_OverlapedControlStatement;
 
-/*Á¦¾î¹®ÀÇ Áßº¹*/
+/*ì œì–´ë¬¸ì˜ ì¤‘ë³µ*/
 
 public class EX01_OverlapedControlStatement {
 	
 	public static void main(String[] args) {		
-		//#1. if-if Áßº¹
+		//#1. if-if ì¤‘ë³µ
 		int value1=5, value2=3;
 		if(value1>5){
 			if(value2<2){
-				System.out.println("½ÇÇà1");
+				System.out.println("ì‹¤í–‰1");
 			}
 			else{
-				System.out.println("½ÇÇà2");
+				System.out.println("ì‹¤í–‰2");
 			}
 		}
 		else {
-			System.out.println("½ÇÇà3"); //½ÇÇà
+			System.out.println("ì‹¤í–‰3"); //ì‹¤í–‰
 		}		
 		
-		//#2. switch-for Áßº¹
+		//#2. switch-for ì¤‘ë³µ
 		int value3=2;
 		switch(value3){
 		case 1:
@@ -34,7 +34,7 @@ public class EX01_OverlapedControlStatement {
 			break;
 		} //10 8 6 4 2		
 		
-		//#3. for-for-if Áßº¹
+		//#3. for-for-if ì¤‘ë³µ
 		for(int i=0; i<3; i++){
 			for(int j=0; j<5; j++){
 				System.out.println(i+" "+j);

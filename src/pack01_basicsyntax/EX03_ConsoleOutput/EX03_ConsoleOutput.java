@@ -1,42 +1,42 @@
-package pack01_basicsyntax.EX03_ConsoleOutput;
+ï»¿package pack01_basicsyntax.EX03_ConsoleOutput;
 
 public class EX03_ConsoleOutput {
 	public static void main(String[] args) {
 		
 		//#1. System.out.println(...)
-		System.out.println("È­¸éÃâ·Â");
-		System.out.println("È­¸é"+"Ãâ·Â");
+		System.out.println("í™”ë©´ì¶œë ¥");
+		System.out.println("í™”ë©´"+"ì¶œë ¥");
 		System.out.println(3.8);
 		System.out.println(3+5);
-		System.out.println("È­¸é"+3);
-		System.out.println("È­¸é"+3+5);
-		System.out.println(3+5+"È­¸é");
+		System.out.println("í™”ë©´"+3);
+		System.out.println("í™”ë©´"+3+5);
+		System.out.println(3+5+"í™”ë©´");
 		System.out.println();
 		
 		int a = 3;
-		String b = "È­¸é";
+		String b = "í™”ë©´";
 		System.out.println(a);
 		System.out.println(b);
-		System.out.println(b+"Ãâ·Â");
-		System.out.println(a+b+"Ãâ·Â");
+		System.out.println(b+"ì¶œë ¥");
+		System.out.println(a+b+"ì¶œë ¥");
 		System.out.println();
 		
 		//#2. System.out.print(...)
-		System.out.print("È­¸é");
-		System.out.print("Ãâ·Â");
+		System.out.print("í™”ë©´");
+		System.out.print("ì¶œë ¥");
 		System.out.print(3);
 		System.out.print("\n");
 		System.out.print("\n");
 		
 		//#3. System.out.print(...)
-		System.out.printf("%d\n",30);//10Áø¼ö
-		System.out.printf("%o\n",30);//8Áø¼ö
-		System.out.printf("%x\n",30);//16Áø¼ö
+		System.out.printf("%d\n",30);//10ì§„ìˆ˜
+		System.out.printf("%o\n",30);//8ì§„ìˆ˜
+		System.out.printf("%x\n",30);//16ì§„ìˆ˜
 
-		System.out.printf("%s\n","Ãâ·Â");
+		System.out.printf("%s\n","ì¶œë ¥");
 		System.out.printf("%f\n",5.8);
 		System.out.printf("%4.2f\n",5.8);
-		System.out.printf("%d¿Í %4.2f\n",4,5.8);
+		System.out.printf("%dì™€ %4.2f\n",4,5.8);
 		
 	}
 }

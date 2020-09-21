@@ -1,24 +1,24 @@
-package pack05_referencedatatype.sec01_array.EX03_InitialValue;
+ï»¿package pack05_referencedatatype.sec01_array.EX03_InitialValue;
 
 import java.util.Arrays;
 
-/*½ºÅÃ¸Ş¸ğ¸®ÀÇ ÃÊ±â°ª°ú ÂüÁ¶ÀÚ·áÇüÀÇ °­Á¦ÃÊ±â°ª*/
+/*ìŠ¤íƒë©”ëª¨ë¦¬ì˜ ì´ˆê¸°ê°’ê³¼ ì°¸ì¡°ìë£Œí˜•ì˜ ê°•ì œì´ˆê¸°ê°’*/
 
 public class EX03_InitialValue {
 	public static void main(String[] args) {
 		
-		//#1. stack ¸Ş¸ğ¸® °ªÀº °­Á¦ ÃÊ±âÈ­ µÇÁö ¾ÊÀ½
+		//#1. stack ë©”ëª¨ë¦¬ ê°’ì€ ê°•ì œ ì´ˆê¸°í™” ë˜ì§€ ì•ŠìŒ
 		int value1;
-		//System.out.println(value1);//¿À·ù
+		//System.out.println(value1);//ì˜¤ë¥˜
 		int[] value2;
-		//System.out.println(value2);//¿À·ù
+		//System.out.println(value2);//ì˜¤ë¥˜
 		
 		int value3 = 0;
 		int[] value4 = null;
 		System.out.println(value3); //0
 		System.out.println(value4); //null
 						
-		//#2. Heap ¸Ş¸ğ¸® °ªÀº °­Á¦ ÃÊ±âÈ­
+		//#2. Heap ë©”ëª¨ë¦¬ ê°’ì€ ê°•ì œ ì´ˆê¸°í™”
 		boolean[] array1 = new boolean[3];
 		for(int i=0; i<3; i++) 
 			System.out.print(array1[i]+"   ");
@@ -34,12 +34,12 @@ public class EX03_InitialValue {
 			System.out.print(array3[i]+"   ");
 		System.out.println();
 		
-		String[] array4 = new String[3]; //ÂüÁ¶ÀÚ·á¹è¿­
+		String[] array4 = new String[3]; //ì°¸ì¡°ìë£Œë°°ì—´
 		for(int i=0; i<3; i++) 
 			System.out.print(array4[i]+"   ");
 		System.out.println();
 				
-		//#Tip. ¹è¿­À» º¸´Ù ½±°Ô Ãâ·ÂÇÏ´Â ¹æ¹ı
+		//#Tip. ë°°ì—´ì„ ë³´ë‹¤ ì‰½ê²Œ ì¶œë ¥í•˜ëŠ” ë°©ë²•
 		System.out.println(Arrays.toString(array1));
 		System.out.println(Arrays.toString(array2));
 		System.out.println(Arrays.toString(array3));

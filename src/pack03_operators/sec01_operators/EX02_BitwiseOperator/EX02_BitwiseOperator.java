@@ -1,12 +1,12 @@
-package pack03_operators.sec01_operators.EX02_BitwiseOperator;
+ï»¿package pack03_operators.sec01_operators.EX02_BitwiseOperator;
 
-/*´Ù¾çÇÑ Áø¹ıÀÇ Ç¥Çö°ú ºñÆ®¿¬»êÀÚ*/
+/*ë‹¤ì–‘í•œ ì§„ë²•ì˜ í‘œí˜„ê³¼ ë¹„íŠ¸ì—°ì‚°ì*/
 
 public class EX02_BitwiseOperator {
 	
 	public static void main(String[] args) {		
 		
-		//#0. ÀÚ¹ÙÄÚµå·Î Áø¹ı º¯È¯
+		//#0. ìë°”ì½”ë“œë¡œ ì§„ë²• ë³€í™˜
 		int data = 13;
 		System.out.println(Integer.toBinaryString(data));
 		System.out.println(Integer.toOctalString(data));
@@ -16,33 +16,33 @@ public class EX02_BitwiseOperator {
 		System.out.println(Integer.parseInt("15",8));
 		System.out.println(Integer.parseInt("d",16));
 				
-		//#1. ´Ù¾çÇÑ Áø¹ıÀÇ Ç¥Çö
-		System.out.println(13);		//10Áø¹ı
-		System.out.println(0b1101);	//2Áø¹ı
-		System.out.println(015);	//8Áø¹ı
-		System.out.println(0x0D);	//16Áø¹ı
+		//#1. ë‹¤ì–‘í•œ ì§„ë²•ì˜ í‘œí˜„
+		System.out.println(13);		//10ì§„ë²•
+		System.out.println(0b1101);	//2ì§„ë²•
+		System.out.println(015);	//8ì§„ë²•
+		System.out.println(0x0D);	//16ì§„ë²•
 		System.out.println();
 				
-		//#2. ºñÆ®¿¬»êÀÚ 
-		//@ AND ¿¬»êÀÚ
+		//#2. ë¹„íŠ¸ì—°ì‚°ì 
+		//@ AND ì—°ì‚°ì
 		System.out.println(3 & 10); 		//2
 		System.out.println(0b0011 & 0b1010);//2		
 		System.out.println(0x03 & 0x0A);	//2		
 		System.out.println();
 		
-		//@ OR ¿¬»êÀÚ
+		//@ OR ì—°ì‚°ì
 		System.out.println(3 | 10); 		//11
 		System.out.println(0b0011 | 0b1010);//11		
 		System.out.println(0x03 | 0x0A);	//11		
 		System.out.println();
 				
-		//@ XOR ¿¬»êÀÚ
+		//@ XOR ì—°ì‚°ì
 		System.out.println(3 ^ 10); 		//9
 		System.out.println(0b0011 ^ 0b1010);//9		
 		System.out.println(0x03 ^ 0x0A);	//9		
 		System.out.println();
 				
-		//@ ~ ¿¬»êÀÚ
+		//@ ~ ì—°ì‚°ì
 		System.out.println(~3);			//-4
 		System.out.println(~0b0011); 	//-4
 		System.out.println(~0x03); 		//-4

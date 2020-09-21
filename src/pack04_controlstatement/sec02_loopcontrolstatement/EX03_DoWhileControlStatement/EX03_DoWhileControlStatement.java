@@ -1,12 +1,12 @@
-package pack04_controlstatement.sec02_loopcontrolstatement.EX03_DoWhileControlStatement;
+ï»¿package pack04_controlstatement.sec02_loopcontrolstatement.EX03_DoWhileControlStatement;
 
-/*do-whileÀÇ ±âº»¹®¹ı±¸Á¶, do-while vs. whileÀÇ ºñ±³*/
+/*do-whileì˜ ê¸°ë³¸ë¬¸ë²•êµ¬ì¡°, do-while vs. whileì˜ ë¹„êµ*/
 
 public class EX03_DoWhileControlStatement {
 
 	public static void main(String[] args) {		
-		//#1. do-while ±âº»¹®¹ı ±¸Á¶ 
-		//@ ¹İº¹È¸¼ö°¡ 0ÀÏ¶§ÀÇ while°ú do-while
+		//#1. do-while ê¸°ë³¸ë¬¸ë²• êµ¬ì¡° 
+		//@ ë°˜ë³µíšŒìˆ˜ê°€ 0ì¼ë•Œì˜ whileê³¼ do-while
 		//while
 		int a;
 		a=0;
@@ -25,7 +25,7 @@ public class EX03_DoWhileControlStatement {
 		System.out.println();
 		System.out.println();
 		
-		//@ ¹İº¹È¸¼ö°¡ 1ÀÏ¶§ÀÇ while°ú do-while
+		//@ ë°˜ë³µíšŒìˆ˜ê°€ 1ì¼ë•Œì˜ whileê³¼ do-while
 		//while
 		a=0;
 		while(a<1){
@@ -43,7 +43,7 @@ public class EX03_DoWhileControlStatement {
 		System.out.println();
 		System.out.println();
 		
-		//@ ¹İº¹È¸¼ö°¡ 10ÀÏ¶§ÀÇ while°ú do-while
+		//@ ë°˜ë³µíšŒìˆ˜ê°€ 10ì¼ë•Œì˜ whileê³¼ do-while
 		//while
 		a=0;
 		while(a<10){

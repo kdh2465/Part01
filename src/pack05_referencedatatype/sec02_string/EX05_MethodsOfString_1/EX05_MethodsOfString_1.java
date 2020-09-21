@@ -1,20 +1,20 @@
-package pack05_referencedatatype.sec02_string.EX05_MethodsOfString_1;
+ï»¿package pack05_referencedatatype.sec02_string.EX05_MethodsOfString_1;
 
 import java.util.Arrays;
 
-/*String Å¬·¡½ºÀÇ ÁÖ¿ä ¸Þ¼­µå1*/
+/*String í´ëž˜ìŠ¤ì˜ ì£¼ìš” ë©”ì„œë“œ1*/
 
 public class EX05_MethodsOfString_1 {
 	public static void main(String[] args) {
 		
-		//#1. ¹®ÀÚ¿­ ±æÀÌ (length())		
+		//#1. ë¬¸ìžì—´ ê¸¸ì´ (length())		
 		String str1 = "Hello Java!";
-		String str2 = "¾È³çÇÏ¼¼¿ä! ¹Ý°©½À´Ï´Ù.";		
+		String str2 = "ì•ˆë…•í•˜ì„¸ìš”! ë°˜ê°‘ìŠµë‹ˆë‹¤.";		
 		System.out.println(str1.length()); //11
 		System.out.println(str2.length()); //13
 		System.out.println();
 		
-		//#2. ¹®ÀÚ¿­ °Ë»ö (charAt(), indexOf(), lastIndexOf())
+		//#2. ë¬¸ìžì—´ ê²€ìƒ‰ (charAt(), indexOf(), lastIndexOf())
 		//@ charAt()
 		System.out.println(str1.charAt(1));
 		System.out.println(str2.charAt(1));
@@ -25,41 +25,41 @@ public class EX05_MethodsOfString_1 {
 		System.out.println(str1.lastIndexOf('a',8));	//7		
 		System.out.println(str1.indexOf("Java"));		//6
 		System.out.println(str1.lastIndexOf("Java"));	//6		
-		System.out.println(str2.indexOf("ÇÏ¼¼¿ä"));		//2
-		System.out.println(str2.lastIndexOf("ÇÏ¼¼¿ä"));	//2		
+		System.out.println(str2.indexOf("í•˜ì„¸ìš”"));		//2
+		System.out.println(str2.lastIndexOf("í•˜ì„¸ìš”"));	//2		
 		System.out.println(str1.indexOf("Bye"));		//-1
-		System.out.println(str2.indexOf("°í¸¿½À´Ï´Ù."));	//-1
+		System.out.println(str2.indexOf("ê³ ë§™ìŠµë‹ˆë‹¤."));	//-1
 		System.out.println();
 				
-		//#3. ¹®ÀÚ¿­ º¯È¯ ¹× ¿¬°á (String.valueOf(), concat()) 
-		//@ String.valueOf(±âº»ÀÚ·áÇü) ±âº»ÀÚ·áÇü ->String
+		//#3. ë¬¸ìžì—´ ë³€í™˜ ë° ì—°ê²° (String.valueOf(), concat()) 
+		//@ String.valueOf(ê¸°ë³¸ìžë£Œí˜•) ê¸°ë³¸ìžë£Œí˜• ->String
 		String str3 = String.valueOf(2.3);
 		String str4 = String.valueOf(false);
 		System.out.println(str3);
 		System.out.println(str4);
 		
-		//@concat() : ¹®ÀÚ¿­ ¿¬°áÇÏ±â
+		//@concat() : ë¬¸ìžì—´ ì—°ê²°í•˜ê¸°
 		String str5 = str3.concat(str4);	
 		System.out.println(str5);			//2.3false
 		
 		//@String.valueOf() + concat() = + Operation
-		String str6 = "¾È³ç"+3;
-		String str7 = "¾È³ç".concat(String.valueOf(3));
+		String str6 = "ì•ˆë…•"+3;
+		String str7 = "ì•ˆë…•".concat(String.valueOf(3));
 		System.out.println(str6);
 		System.out.println(str7);
 		System.out.println();		
 				
-		//#4. ¹®ÀÚ¿­ -> byte[] (getBytes()) / ¹®ÀÚ¿­ -> char[]  (toCharArray())
+		//#4. ë¬¸ìžì—´ -> byte[] (getBytes()) / ë¬¸ìžì—´ -> char[]  (toCharArray())
 		String str8 = "Hello Java!";
-		String str9 = "¾È³çÇÏ¼¼¿ä!";	
+		String str9 = "ì•ˆë…•í•˜ì„¸ìš”!";	
 		
-		//@ getBytes() ¹®ÀÚ¿­ -> byte[]				
+		//@ getBytes() ë¬¸ìžì—´ -> byte[]				
 		byte[] array1 = str8.getBytes();
 		System.out.println(Arrays.toString(array1));					
 		byte[] array2 = str9.getBytes();
 		System.out.println(Arrays.toString(array2));
 						
-		//@ toCharArray() ¹®ÀÚ¿­ -> char[]
+		//@ toCharArray() ë¬¸ìžì—´ -> char[]
 		char[] array3 = str8.toCharArray();
 		System.out.println(Arrays.toString(array3));					
 		char[] array4 = str9.toCharArray();

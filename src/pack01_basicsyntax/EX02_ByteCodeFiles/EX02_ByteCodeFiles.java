@@ -1,4 +1,4 @@
-package pack01_basicsyntax.EX02_ByteCodeFiles;
+﻿package pack01_basicsyntax.EX02_ByteCodeFiles;
 
 class A{	//A.class
 }

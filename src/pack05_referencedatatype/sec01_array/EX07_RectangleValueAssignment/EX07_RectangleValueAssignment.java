@@ -1,12 +1,12 @@
-package pack05_referencedatatype.sec01_array.EX07_RectangleValueAssignment;
+ï»¿package pack05_referencedatatype.sec01_array.EX07_RectangleValueAssignment;
 
-/*2Â÷¿ø Á¤¹æÇà·Ä ¹è¿­ÀÇ 4°¡Áö ¿ø¼Ò°ª ´ëÀÔ ¹æ¹ı*/
+/*2ì°¨ì› ì •ë°©í–‰ë ¬ ë°°ì—´ì˜ 4ê°€ì§€ ì›ì†Œê°’ ëŒ€ì… ë°©ë²•*/
 
 public class EX07_RectangleValueAssignment {
 	
 	public static void main(String[] args) {
 		
-		//#1. ¹è¿­ ¿ø¼ÒÀÇ °ª ´ëÀÔ (¹æ¹ı 1)
+		//#1. ë°°ì—´ ì›ì†Œì˜ ê°’ ëŒ€ì… (ë°©ë²• 1)
 		int[][] array1 = new int[2][3];		
 		array1[0][0]=1;
 		array1[0][1]=2;
@@ -30,7 +30,7 @@ public class EX07_RectangleValueAssignment {
 		
 		System.out.println();
 				
-		//#2. ¹è¿­ ¿ø¼ÒÀÇ °ª ´ëÀÔ (¹æ¹ı 2)
+		//#2. ë°°ì—´ ì›ì†Œì˜ ê°’ ëŒ€ì… (ë°©ë²• 2)
 		int[][] array3 = new int[][]{{1,2,3},{4,5,6}};
 		System.out.println(array3[0][0] + " "+array3[0][1] + " "+array3[0][2]);
 		System.out.println(array3[1][0] + " "+array3[1][1] + " "+array3[1][2]);
@@ -42,13 +42,13 @@ public class EX07_RectangleValueAssignment {
 		
 		System.out.println();
 				
-		//#3. ¹è¿­ÀÇ ¿ø¼Ò°ª ´ëÀÔ (¹æ¹ı3)
+		//#3. ë°°ì—´ì˜ ì›ì†Œê°’ ëŒ€ì… (ë°©ë²•3)
 		int[][] array5 = {{1,2,3},{4,5,6}};
 		System.out.println(array5[0][0]+ " "+array5[0][1]+ " "+array5[0][2]+ " ");
 		System.out.println(array5[1][0]+ " "+array5[1][1]+ " "+array5[1][2]+ " ");
 		
 //		int[][] array6;
-//		array6 = {{1,2,3},{4,5,6}}; //ºÒ°¡´É
+//		array6 = {{1,2,3},{4,5,6}}; //ë¶ˆê°€ëŠ¥
 //		System.out.println(array6[0][0]+ " "+array6[0][1]+ " "+array6[0][2]+ " ");
 //		System.out.println(array6[1][0]+ " "+array6[1][1]+ " "+array6[1][2]+ " ");			
 	}

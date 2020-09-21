@@ -1,14 +1,14 @@
-package pack01_basicsyntax.EX01_JavaBasicStructure;
+ï»¿package pack01_basicsyntax.EX01_JavaBasicStructure;
 
 /*
-Ã³À½ ¸¸µç Å¬·¡½º
-(¿©·¯ ÁÙ ÁÖ¼®)
+ì²˜ìŒ ë§Œë“  í´ë˜ìŠ¤
+(ì—¬ëŸ¬ ì¤„ ì£¼ì„)
 */
 public class EX01_JavaBasicStructure {
 	public static void main(String[] args) {
 		
-		//ÇÑÁÙÁÖ¼® : È­¸é Ãâ·ÂÄÚµå
-		System.out.println("ÄÜ¼Ö È­¸é Ãâ·Â");
+		//í•œì¤„ì£¼ì„ : í™”ë©´ ì¶œë ¥ì½”ë“œ
+		System.out.println("ì½˜ì†” í™”ë©´ ì¶œë ¥");
 		
 	}
 }

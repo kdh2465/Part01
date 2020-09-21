@@ -1,10 +1,10 @@
-package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX06_OperationBetweenDataType;
+ï»¿package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX06_OperationBetweenDataType;
 
-/*°°Àº ÀÚ·áÇü°£ÀÇ ¿¬»ê°ú ´Ù¸¥ ÀÚ·áÇü°£ÀÇ ¿¬»ê*/
+/*ê°™ì€ ìë£Œí˜•ê°„ì˜ ì—°ì‚°ê³¼ ë‹¤ë¥¸ ìë£Œí˜•ê°„ì˜ ì—°ì‚°*/
 
 public class EX06_OperationBetweenDataType {
 	public static void main(String[] ar) {		
-		//#1. °°Àº ÀÚ·áÇü°£ÀÇ ¿¬»ê
+		//#1. ê°™ì€ ìë£Œí˜•ê°„ì˜ ì—°ì‚°
 		int value1 = 3+5;
 		int value2 = 8/5;
 		float value3 = 3.0f + 5.0f;
@@ -12,7 +12,7 @@ public class EX06_OperationBetweenDataType {
 		
 		byte data1 = 3;
 		byte data2 = 5;
-		//byte value5 = data1 + data2; //¿À·ù (byte, short´Â ¿¬»ê½Ã int·Î º¯È¯µÇ¾î ¿¬»ê ¼öÇà)
+		//byte value5 = data1 + data2; //ì˜¤ë¥˜ (byte, shortëŠ” ì—°ì‚°ì‹œ intë¡œ ë³€í™˜ë˜ì–´ ì—°ì‚° ìˆ˜í–‰)
 		int value5 = data1 + data2;
 		
 		System.out.println("value1="+value1);
@@ -21,8 +21,8 @@ public class EX06_OperationBetweenDataType {
 		System.out.println("value4="+value4);
 		System.out.println("value5="+value5);
 		
-		//#2. ´Ù¸¥ ÀÚ·áÇü°£ÀÇ ¿¬»ê (¹üÀ§°¡ ³ĞÀº ÂÊÀ¸·Î ÀÚµ¿Ä³½ºÆÃ)
-		//int value6 = 5 + 3.5; //¿À·ù
+		//#2. ë‹¤ë¥¸ ìë£Œí˜•ê°„ì˜ ì—°ì‚° (ë²”ìœ„ê°€ ë„“ì€ ìª½ìœ¼ë¡œ ìë™ìºìŠ¤íŒ…)
+		//int value6 = 5 + 3.5; //ì˜¤ë¥˜
 		double value6 = 5 + 3.5;
 		int value7 = 5 + (int)3.5;
 		

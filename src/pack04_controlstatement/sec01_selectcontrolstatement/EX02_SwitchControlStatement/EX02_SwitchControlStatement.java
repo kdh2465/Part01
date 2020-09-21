@@ -1,12 +1,12 @@
-package pack04_controlstatement.sec01_selectcontrolstatement.EX02_SwitchControlStatement;
+ï»¿package pack04_controlstatement.sec01_selectcontrolstatement.EX02_SwitchControlStatement;
 
-/*switch ¼±ÅÃÁ¦¾î¹®(break ¹ÌÆ÷ÇÔ, break Æ÷ÇÔ, if¹® º¯È¯)*/
+/*switch ì„ íƒì œì–´ë¬¸(break ë¯¸í¬í•¨, break í¬í•¨, ifë¬¸ ë³€í™˜)*/
 
 public class EX02_SwitchControlStatement {
 
 	public static void main(String[] args) {
 		
-		//#1. breakÀÌ Æ÷ÇÔµÇÁö ¾Ê´Â °æ¿ì 
+		//#1. breakì´ í¬í•¨ë˜ì§€ ì•ŠëŠ” ê²½ìš° 
 		int value1=2;
 		switch(value1){
 		case 1:
@@ -20,7 +20,7 @@ public class EX02_SwitchControlStatement {
 		} //BCD
 		System.out.println();
 		
-		//#2. breakÀÌ Æ÷ÇÔµÈ °æ¿ì
+		//#2. breakì´ í¬í•¨ëœ ê²½ìš°
 		int value2=2;
 		switch(value2){
 		case 1:
@@ -37,7 +37,7 @@ public class EX02_SwitchControlStatement {
 		} //B
 		System.out.println();
 		
-		//@ if-else if...-else·Î ÀüÈ¯
+		//@ if-else if...-elseë¡œ ì „í™˜
 		if(value2==1) {
 			System.out.print("A");
 		}

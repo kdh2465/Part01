@@ -1,19 +1,19 @@
-package pack03_operators.sec01_operators.EX06_AssignmentOperator;
+ï»¿package pack03_operators.sec01_operators.EX06_AssignmentOperator;
 
-/*´ëÀÔ¿¬»êÀÚ ¹× Ãà¾àÇ¥Çö*/
+/*ëŒ€ì…ì—°ì‚°ì ë° ì¶•ì•½í‘œí˜„*/
 
 public class EX06_AssignmentOperator {
 	
 	public static void main(String[] args) {
 		
-		//#1. ´ëÀÔ¿¬»êÀÚ ¹× Ãà¾àÇ¥Çö
-		//@ ´ëÀÔ¿¬»ê
+		//#1. ëŒ€ì…ì—°ì‚°ì ë° ì¶•ì•½í‘œí˜„
+		//@ ëŒ€ì…ì—°ì‚°
 		int value1 = 3;
 		value1 = value1 + 3;
 		System.out.println(value1);
 		System.out.println();
 		
-		//@ ´ëÀÔ + ´Ù¸¥ ¿¬»êÀÇ Ãà¾àÇ¥Çö
+		//@ ëŒ€ì… + ë‹¤ë¥¸ ì—°ì‚°ì˜ ì¶•ì•½í‘œí˜„
 		int value2;
 		value2= 5; System.out.println(value2+=2); 	//7
 		value2= 5; System.out.println(value2-=2);	//3

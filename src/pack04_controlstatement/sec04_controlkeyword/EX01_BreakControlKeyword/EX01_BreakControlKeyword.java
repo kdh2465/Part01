@@ -1,11 +1,11 @@
-package pack04_controlstatement.sec04_controlkeyword.EX01_BreakControlKeyword;
+ï»¿package pack04_controlstatement.sec04_controlkeyword.EX01_BreakControlKeyword;
 
-/*breakÀ» ÀÌ¿ëÇÑ ¹İº¹¹® Å»Ãâ (´ÜÀÏ¹İº¹¹®, ´ÙÁß ¹İº¹¹®)*/
+/*breakì„ ì´ìš©í•œ ë°˜ë³µë¬¸ íƒˆì¶œ (ë‹¨ì¼ë°˜ë³µë¬¸, ë‹¤ì¤‘ ë°˜ë³µë¬¸)*/
 
 public class EX01_BreakControlKeyword {
 	
 	public static void main(String[] args) {		
-		//#1. ´ÜÀÏ loop break Å»Ãâ
+		//#1. ë‹¨ì¼ loop break íƒˆì¶œ
 		for(int i=0; i<10; i++){		  
 			System.out.println(i);
 			break;
@@ -21,8 +21,8 @@ public class EX01_BreakControlKeyword {
 		System.out.println();
 		
 		
-		//#2. ÀÌÁß loop break Å»Ãâ
-		//@case1. ÇÏ³ªÀÇ ¹İº¹¹®Àº Å»ÃâÇÏ´Â °æ¿ì 
+		//#2. ì´ì¤‘ loop break íƒˆì¶œ
+		//@case1. í•˜ë‚˜ì˜ ë°˜ë³µë¬¸ì€ íƒˆì¶œí•˜ëŠ” ê²½ìš° 
 		for(int i=0; i<5; i++){
 			for(int j=0; j<5; j++){
 				if(j==2){
@@ -33,7 +33,7 @@ public class EX01_BreakControlKeyword {
 		} //0,0 0,1 ... 4,1
 		System.out.println();
 		
-		//@case2. µÎ°³ÀÇ ¹İº¹¹®À» Å»Ãâ (break LABLE)
+		//@case2. ë‘ê°œì˜ ë°˜ë³µë¬¸ì„ íƒˆì¶œ (break LABLE)
 		POS1:
 		for(int i=0; i<5; i++){
 			for(int j=0; j<5; j++){
@@ -46,7 +46,7 @@ public class EX01_BreakControlKeyword {
 		} //0,0 0,1
 		System.out.println();
 		
-		//@case3. µÎ°³ÀÇ ¹İº¹¹®À» Å»Ãâ (º¯¼öÀÇ °ª Á¶Á¤)		
+		//@case3. ë‘ê°œì˜ ë°˜ë³µë¬¸ì„ íƒˆì¶œ (ë³€ìˆ˜ì˜ ê°’ ì¡°ì •)		
 		for(int i=0; i<5; i++){
 			for(int j=0; j<5; j++){
 				if(j==2){

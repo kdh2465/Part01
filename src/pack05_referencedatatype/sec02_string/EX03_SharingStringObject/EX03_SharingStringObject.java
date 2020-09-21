@@ -1,18 +1,18 @@
-package pack05_referencedatatype.sec02_string.EX03_SharingStringObject;
+ï»¿package pack05_referencedatatype.sec02_string.EX03_SharingStringObject;
 
-/*¹®ÀÚ¿­ ¸®ÅÍ·²¿¡ ÀÇÇÑ »ı¼º ¹®ÀÚ¿­ °´Ã¼ÀÇ °øÀ¯*/
+/*ë¬¸ìì—´ ë¦¬í„°ëŸ´ì— ì˜í•œ ìƒì„± ë¬¸ìì—´ ê°ì²´ì˜ ê³µìœ */
 
 public class EX03_SharingStringObject {
 	public static void main(String[] args) {
 		
-		//#1. ¹®ÀÚ¿­ °´Ã¼ÀÇ °øÀ¯ (literal·Î Á÷Á¢ ÀÔ·ÂÇÑ °æ¿ì) / °³º° °´Ã¼ »ı¼º (new·Î »ı¼ºÇÑ °æ¿ì) 
+		//#1. ë¬¸ìì—´ ê°ì²´ì˜ ê³µìœ  (literalë¡œ ì§ì ‘ ì…ë ¥í•œ ê²½ìš°) / ê°œë³„ ê°ì²´ ìƒì„± (newë¡œ ìƒì„±í•œ ê²½ìš°) 
 		
-		String str1 = new String("¾È³ç");
-		String str2 = "¾È³ç";
-		String str3 = "¾È³ç";
-		String str4 = new String("¾È³ç");
+		String str1 = new String("ì•ˆë…•");
+		String str2 = "ì•ˆë…•";
+		String str3 = "ì•ˆë…•";
+		String str4 = new String("ì•ˆë…•");
 		
-		//@stack¸Ş¸ğ¸®°ª ºñ±³ (°´Ã¼ÀÇ ¹øÁö(À§Ä¡))
+		//@stackë©”ëª¨ë¦¬ê°’ ë¹„êµ (ê°ì²´ì˜ ë²ˆì§€(ìœ„ì¹˜))
 		System.out.println(str1==str2); //false
 		System.out.println(str2==str3); //true
 		System.out.println(str3==str4); //false

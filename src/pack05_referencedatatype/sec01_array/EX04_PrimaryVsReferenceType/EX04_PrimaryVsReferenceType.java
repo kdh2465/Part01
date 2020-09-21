@@ -1,18 +1,18 @@
-package pack05_referencedatatype.sec01_array.EX04_PrimaryVsReferenceType;
+ï»¿package pack05_referencedatatype.sec01_array.EX04_PrimaryVsReferenceType;
 
-/*±âº»ÀÚ·áÇü vs. ÂüÁ¶ÀÚ·áÇüÀÇ Æ¯Â¡ ºñ±³*/
+/*ê¸°ë³¸ìë£Œí˜• vs. ì°¸ì¡°ìë£Œí˜•ì˜ íŠ¹ì§• ë¹„êµ*/
 
 public class EX04_PrimaryVsReferenceType {
 	public static void main(String[] args) {
 		
-		//#1. ±âº»ÀÚ·áÇüÀÇ °ª º¹»ç
+		//#1. ê¸°ë³¸ìë£Œí˜•ì˜ ê°’ ë³µì‚¬
 		int value1 = 3;
 		int value2 = value1;
 		value2 = 7;
 		System.out.println("value1 = "+value1); //3
 		System.out.println("value2 = "+value2); //7
 		
-		//#2. ÂüÁ¶ÀÚ·áÇüÀÇ °ª º¹»ç
+		//#2. ì°¸ì¡°ìë£Œí˜•ì˜ ê°’ ë³µì‚¬
 		int[] array1 = new int[] {3,4,5};
 		int[] array2 = array1;
 		array2[0]=7;

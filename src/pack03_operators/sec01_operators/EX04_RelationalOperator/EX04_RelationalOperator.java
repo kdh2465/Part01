@@ -1,11 +1,11 @@
-package pack03_operators.sec01_operators.EX04_RelationalOperator;
+ï»¿package pack03_operators.sec01_operators.EX04_RelationalOperator;
 
-/*Å©±âºñ±³ ¹× µî°¡ºñ±³¿Í ÂüÁ¶ÀÚ·áÇüÀÇ µî°¡ºñ±³*/
+/*í¬ê¸°ë¹„êµ ë° ë“±ê°€ë¹„êµì™€ ì°¸ì¡°ìë£Œí˜•ì˜ ë“±ê°€ë¹„êµ*/
 
 public class EX04_RelationalOperator {
 	
 	public static void main(String[] args) {		
-		//#1. Å©±âºñ±³ (>, <, <=, >=) : true, false
+		//#1. í¬ê¸°ë¹„êµ (>, <, <=, >=) : true, false
 		System.out.println(5<2);	//false
 		System.out.println(5>2); 	//true
 		System.out.println(5>5); 	//false
@@ -13,17 +13,17 @@ public class EX04_RelationalOperator {
 		System.out.println(5>=5); 	//true		
 		System.out.println();
 		
-		//#2. µî°¡ºñ±³ (==, !=) : true, false
-		//@ ±âº»ÀÚ·áÇü µî°¡ºñ±³
+		//#2. ë“±ê°€ë¹„êµ (==, !=) : true, false
+		//@ ê¸°ë³¸ìë£Œí˜• ë“±ê°€ë¹„êµ
 		System.out.println(5==2); 	//false
 		System.out.println(5!=2);	//true
 		System.out.println(5==5); 	//true
 		System.out.println(5!=5); 	//false		
 		System.out.println();
 		
-		//@ ÂüÁ¶ÀÚ·áÇü µî°¡ºñ±³
-		String str1 = new String("¾È³ç");
-		String str2 = new String("¾È³ç");
+		//@ ì°¸ì¡°ìë£Œí˜• ë“±ê°€ë¹„êµ
+		String str1 = new String("ì•ˆë…•");
+		String str2 = new String("ì•ˆë…•");
 		System.out.println(str1==str2); //false
 	}
 	

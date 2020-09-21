@@ -1,33 +1,33 @@
-package pack05_referencedatatype.sec02_string.EX04_PlusOperationOfString;
+ï»¿package pack05_referencedatatype.sec02_string.EX04_PlusOperationOfString;
 
-/*¹®ÀÚ¿­ÀÇ ¡®+¡¯ ¿¬»êÀÚ(plus operation)*/
+/*ë¬¸ìì—´ì˜ â€˜+â€™ ì—°ì‚°ì(plus operation)*/
 
 public class EX04_PlusOperationOfString {
 	public static void main(String[] args) {		
 		//#1. case1. String + String		
-		String str1 = "¾È³ç"+"ÇÏ¼¼¿ä"+"!";
-		System.out.println(str1); //¾È³çÇÏ¼¼¿ä!
+		String str1 = "ì•ˆë…•"+"í•˜ì„¸ìš”"+"!";
+		System.out.println(str1); //ì•ˆë…•í•˜ì„¸ìš”!
 		
-		String str2 = "¹İ°©";
-		str2+="½À´Ï´Ù";
+		String str2 = "ë°˜ê°‘";
+		str2+="ìŠµë‹ˆë‹¤";
 		str2+="!";
-		System.out.println(str2); //¹İ°©½À´Ï´Ù!
+		System.out.println(str2); //ë°˜ê°‘ìŠµë‹ˆë‹¤!
 		System.out.println();
 		
-		//#2. case2. String + ±âº»ÀÚ·áÇü  ¶Ç´Â ±âº»ÀÚ·áÇü + String
-		String str3 = "¾È³ç" + 1; //
-		String str4 = "¾È³ç" + String.valueOf(1);
-		String str5 = "¾È³ç" + "1";
+		//#2. case2. String + ê¸°ë³¸ìë£Œí˜•  ë˜ëŠ” ê¸°ë³¸ìë£Œí˜• + String
+		String str3 = "ì•ˆë…•" + 1; //
+		String str4 = "ì•ˆë…•" + String.valueOf(1);
+		String str5 = "ì•ˆë…•" + "1";
 		
-		System.out.println(str3);	//¾È³ç1
-		System.out.println(str4);	//¾È³ç1
-		System.out.println(str5);	//¾È³ç1
+		System.out.println(str3);	//ì•ˆë…•1
+		System.out.println(str4);	//ì•ˆë…•1
+		System.out.println(str5);	//ì•ˆë…•1
 		System.out.println();
 		
-		//#3. case3. String/±âº»ÀÚ·áÇü È¥¿ë 
-		System.out.println(1+"¾È³ç");	//1¾È³ç
-		System.out.println(1+"¾È³ç"+2);	//1¾È³ç2
-		System.out.println("¾È³ç"+1+2);	//¾È³ç12
-		System.out.println(1+2+"¾È³ç");	//3¾È³ç					
+		//#3. case3. String/ê¸°ë³¸ìë£Œí˜• í˜¼ìš© 
+		System.out.println(1+"ì•ˆë…•");	//1ì•ˆë…•
+		System.out.println(1+"ì•ˆë…•"+2);	//1ì•ˆë…•2
+		System.out.println("ì•ˆë…•"+1+2);	//ì•ˆë…•12
+		System.out.println(1+2+"ì•ˆë…•");	//3ì•ˆë…•					
 	}
 }

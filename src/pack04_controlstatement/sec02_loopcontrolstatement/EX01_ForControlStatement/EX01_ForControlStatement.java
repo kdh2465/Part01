@@ -1,11 +1,11 @@
-package pack04_controlstatement.sec02_loopcontrolstatement.EX01_ForControlStatement;
+ï»¿package pack04_controlstatement.sec02_loopcontrolstatement.EX01_ForControlStatement;
 
-/*for ¹İº¹Á¦¾î¹®ÀÇ ±âº»¹®¹ı±¸Á¶, Æ¯¼öÇÑ ÇüÅÂ, ¹«ÇÑ·çÇÁ¿¡¼­ Å»ÃâÇÏ±â*/
+/*for ë°˜ë³µì œì–´ë¬¸ì˜ ê¸°ë³¸ë¬¸ë²•êµ¬ì¡°, íŠ¹ìˆ˜í•œ í˜•íƒœ, ë¬´í•œë£¨í”„ì—ì„œ íƒˆì¶œí•˜ê¸°*/
 
 public class EX01_ForControlStatement {
 	public static void main(String[] args) {
 		
-		//#1. for ±âº»¹®¹ı ±¸Á¶ 
+		//#1. for ê¸°ë³¸ë¬¸ë²• êµ¬ì¡° 
 		int a;
 		for(a=0; a<3; a++) {
 			System.out.print(a+" ");
@@ -37,17 +37,17 @@ public class EX01_ForControlStatement {
 		} //0 2 4 ... 18
 		System.out.println();
 		
-		//#2. for¹®ÀÇ Æ¯¼öÇÑ ÇüÅÂ (¹«ÇÑ·çÇÁ)
-		//@ ¹«ÇÑ·çÇÁ 1
+		//#2. forë¬¸ì˜ íŠ¹ìˆ˜í•œ í˜•íƒœ (ë¬´í•œë£¨í”„)
+		//@ ë¬´í•œë£¨í”„ 1
 		//for(int i=0; ; i++){
-		//System.out.println("¹«ÇÑ·çÇÁ");
+		//System.out.println("ë¬´í•œë£¨í”„");
 		//}
-		//@ ¹«ÇÑ·çÇÁ 2
+		//@ ë¬´í•œë£¨í”„ 2
 		//for(;;) {
-		//System.out.println("¹«ÇÑ·çÇÁ");
+		//System.out.println("ë¬´í•œë£¨í”„");
 		//}
 		
-		//#3. ¹«ÇÑ·çÇÁ¿¡¼­ Å»ÃâÇÏ±â (break)
+		//#3. ë¬´í•œë£¨í”„ì—ì„œ íƒˆì¶œí•˜ê¸° (break)
 		for(int i=0; ; i++){
 		  if(i>10){
 		    break;

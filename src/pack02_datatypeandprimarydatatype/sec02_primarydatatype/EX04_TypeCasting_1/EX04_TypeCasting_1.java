@@ -1,12 +1,12 @@
-package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX04_TypeCasting_1;
+ï»¿package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX04_TypeCasting_1;
 
-/*µÎ °¡Áö Ä³½ºÆÃ ¹æ¹ı*/
+/*ë‘ ê°€ì§€ ìºìŠ¤íŒ… ë°©ë²•*/
 
 public class EX04_TypeCasting_1 {
 	
 	public static void main(String[] ar) {		
-		//#1. Ä³½ºÆÃ
-		//#1-1. Ä³½ºÆÃ ¹æ¹ı1 (µ¥ÀÌÅÍÅ¸ÀÔ)
+		//#1. ìºìŠ¤íŒ…
+		//#1-1. ìºìŠ¤íŒ… ë°©ë²•1 (ë°ì´í„°íƒ€ì…)
 		int value1 = (int)5.3;
 		long value2 = (long)10;
 		float value3 = (float)5.8;
@@ -17,7 +17,7 @@ public class EX04_TypeCasting_1 {
 		System.out.println("value3="+value3);
 		System.out.println("value4="+value4);
 		
-		//#1-2. Ä³½ºÆÃ ¹æ¹ı2 (L, F) : ´ë¼Ò¹®ÀÚ ¸ğµÎ °¡´É
+		//#1-2. ìºìŠ¤íŒ… ë°©ë²•2 (L, F) : ëŒ€ì†Œë¬¸ì ëª¨ë‘ ê°€ëŠ¥
 		long value5 = 10L;
 		long value6 = 10l;
 		float value7 = 5.8F;

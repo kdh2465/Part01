@@ -1,10 +1,10 @@
-package pack05_referencedatatype.sec01_array.EX02_ValueAssignment;
+ï»¿package pack05_referencedatatype.sec01_array.EX02_ValueAssignment;
 
-/*1Â÷¿ø ¹è¿­ÀÇ ¿ø¼Ò°ª ´ëÀÔÀÇ 3°¡Áö ¹æ¹ı*/
+/*1ì°¨ì› ë°°ì—´ì˜ ì›ì†Œê°’ ëŒ€ì…ì˜ 3ê°€ì§€ ë°©ë²•*/
 
 public class EX02_ValueAssignment {
 	public static void main(String[] args) {		
-		//#1. ¹è¿­ ¿ø¼ÒÀÇ °ª ´ëÀÔ (¹æ¹ı 1)
+		//#1. ë°°ì—´ ì›ì†Œì˜ ê°’ ëŒ€ì… (ë°©ë²• 1)
 		int[] array1 = new int[3];
 		array1[0]=3;
 		array1[1]=4;
@@ -18,7 +18,7 @@ public class EX02_ValueAssignment {
 		array2[2]=5;
 		System.out.println(array2[0] + " "+array2[1] + " "+array2[2]);
 				
-		//#2. ¹è¿­ ¿ø¼ÒÀÇ °ª ´ëÀÔ (¹æ¹ı 2)
+		//#2. ë°°ì—´ ì›ì†Œì˜ ê°’ ëŒ€ì… (ë°©ë²• 2)
 		int[] array3 = new int[] {3,4,5};
 		System.out.println(array3[0] + " "+array3[1] + " "+array3[2]);
 		
@@ -26,12 +26,12 @@ public class EX02_ValueAssignment {
 		array4 = new int[] {3,4,5};
 		System.out.println(array4[0] + " "+array4[1] + " "+array4[2]);
 				
-		//#3. ¹è¿­ ¿ø¼ÒÀÇ °ª ´ëÀÔ (¹æ¹ı 3)
+		//#3. ë°°ì—´ ì›ì†Œì˜ ê°’ ëŒ€ì… (ë°©ë²• 3)
 		int[] array5 = {3, 4, 5};
 		System.out.println(array5[0]+ " "+ array5[1]+ " " + array5[2]);
 		
 //		int[] array6;
-//		array6 = {3, 4, 5}; // ºÒ°¡´É
+//		array6 = {3, 4, 5}; // ë¶ˆê°€ëŠ¥
 //		System.out.println(array6[0]+ " "+ array6[1]+ " " + array6[2]);					
 	}
 }

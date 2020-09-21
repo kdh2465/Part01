@@ -1,6 +1,6 @@
-package pack02_datatypeandprimarydatatype.sec01_datatype.EX03_RangeOfVariableUse;
+ï»¿package pack02_datatypeandprimarydatatype.sec01_datatype.EX03_RangeOfVariableUse;
 
-/*º¯¼öÀÇ »ıÁ¸±â°£*/
+/*ë³€ìˆ˜ì˜ ìƒì¡´ê¸°ê°„*/
 
 public class EX03_RangeOfVariableUse {
 	
@@ -14,6 +14,6 @@ public class EX03_RangeOfVariableUse {
 		}
 		
 		System.out.println(value1); //3
-		//System.out.println(value2); //¿À·ù		
+		//System.out.println(value2); //ì˜¤ë¥˜		
 	}
 }

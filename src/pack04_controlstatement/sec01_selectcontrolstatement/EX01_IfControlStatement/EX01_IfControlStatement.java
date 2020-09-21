@@ -1,6 +1,6 @@
-package pack04_controlstatement.sec01_selectcontrolstatement.EX01_IfControlStatement;
+ï»¿package pack04_controlstatement.sec01_selectcontrolstatement.EX01_IfControlStatement;
 
-/*¼¼ °¡Áö TYPEÀÇ if Á¦¾î¹®*/
+/*ì„¸ ê°€ì§€ TYPEì˜ if ì œì–´ë¬¸*/
 
 public class EX01_IfControlStatement {
 	public static void main(String[] args) {		
@@ -8,19 +8,19 @@ public class EX01_IfControlStatement {
 		int value1 = 5;
 		
 		if(value1 > 3) {
-			System.out.println("½ÇÇà1"); //½ÇÇàµÊ
+			System.out.println("ì‹¤í–‰1"); //ì‹¤í–‰ë¨
 		}
 		if(value1 < 5) {
-			System.out.println("½ÇÇà2"); //½ÇÇà¾ÈµÊ
+			System.out.println("ì‹¤í–‰2"); //ì‹¤í–‰ì•ˆë¨
 		}
 		
 		boolean bool1 = true;
 		boolean bool2 = false;
 		if(bool1) {
-			System.out.println("½ÇÇà3"); //½ÇÇàµÊ
+			System.out.println("ì‹¤í–‰3"); //ì‹¤í–‰ë¨
 		}
 		if(bool2) {
-			System.out.println("½ÇÇà4"); //½ÇÇà¾ÈµÊ
+			System.out.println("ì‹¤í–‰4"); //ì‹¤í–‰ì•ˆë¨
 		}
 		System.out.println();
 		
@@ -28,55 +28,55 @@ public class EX01_IfControlStatement {
 		//#2. Type2 : if-else
 		int value2 = 5;
 		if(value2 < 3) {
-			System.out.println("½ÇÇà5"); 
+			System.out.println("ì‹¤í–‰5"); 
 		} else {
-			System.out.println("½ÇÇà6"); //½ÇÇàµÊ
+			System.out.println("ì‹¤í–‰6"); //ì‹¤í–‰ë¨
 		}
 		
-		//@ cf. »ïÇ×¿¬»êÀÚ·Î ÀüÈ¯ °¡´É
-		System.out.println((value2<3)?"½ÇÇà5":"½ÇÇà6");
+		//@ cf. ì‚¼í•­ì—°ì‚°ìë¡œ ì „í™˜ ê°€ëŠ¥
+		System.out.println((value2<3)?"ì‹¤í–‰5":"ì‹¤í–‰6");
 		System.out.println();
 		
 		
 		//#3. Type3 : if-else if-else if ...- else
 		int value3 = 85;
 		if(value3>=90) {
-		  System.out.println("AÇĞÁ¡");
+		  System.out.println("Aí•™ì ");
 		}
 		else if(value3>=80) {
-		  System.out.println("BÇĞÁ¡"); //½ÇÇà
+		  System.out.println("Bí•™ì "); //ì‹¤í–‰
 		}
 		else if(value3>=70) {
-		  System.out.println("CÇĞÁ¡");
+		  System.out.println("Cí•™ì ");
 		}
 		else {
-		  System.out.println("FÇĞÁ¡");
+		  System.out.println("Fí•™ì ");
 		}	
 		
 		if(value3>=70) {
-		  System.out.println("CÇĞÁ¡"); //½ÇÇà
+		  System.out.println("Cí•™ì "); //ì‹¤í–‰
 		}
 		else if(value3>=80) {
-		  System.out.println("BÇĞÁ¡");
+		  System.out.println("Bí•™ì ");
 		}
 		else if(value3>=90) {
-		  System.out.println("AÇĞÁ¡");
+		  System.out.println("Aí•™ì ");
 		}
 		else {
-		  System.out.println("FÇĞÁ¡");
+		  System.out.println("Fí•™ì ");
 		}
 				
 		if(value3>=70 && value3<80) {
-		  System.out.println("CÇĞÁ¡");
+		  System.out.println("Cí•™ì ");
 		}
 		else if(value3>=80 && value3<90) {
-		  System.out.println("BÇĞÁ¡");	 //½ÇÇà
+		  System.out.println("Bí•™ì ");	 //ì‹¤í–‰
 		}
 		else if(value3>=90) {
-		  System.out.println("AÇĞÁ¡");
+		  System.out.println("Aí•™ì ");
 		}
 		else {
-		  System.out.println("FÇĞÁ¡");
+		  System.out.println("Fí•™ì ");
 		}
 		
 	}

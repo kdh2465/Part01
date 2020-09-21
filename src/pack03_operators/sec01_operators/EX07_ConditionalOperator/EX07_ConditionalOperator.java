@@ -1,11 +1,11 @@
-package pack03_operators.sec01_operators.EX07_ConditionalOperator;
+ï»¿package pack03_operators.sec01_operators.EX07_ConditionalOperator;
 
-/*»ïÇ× ¿¬»êÀÚ*/
+/*ì‚¼í•­ ì—°ì‚°ì*/
 
 public class EX07_ConditionalOperator {
 	public static void main(String[] args) {
 		
-		//#1. »ïÇ×¿¬»êÀÚ
+		//#1. ì‚¼í•­ì—°ì‚°ì
 		int value1 = (3>5)? 6: 9;
 		System.out.println(value1);	//9
 		
@@ -13,13 +13,13 @@ public class EX07_ConditionalOperator {
 		System.out.println(value2);	//10
 		
 		int value3 = 3;
-		System.out.println((value3%2)==0?"Â¦¼ö":"È¦¼ö");			
+		System.out.println((value3%2)==0?"ì§ìˆ˜":"í™€ìˆ˜");			
 		
-		//cf. if - else·Î º¯È¯
+		//cf. if - elseë¡œ ë³€í™˜
 		if(value3%2==0)
-			System.out.println("Â¦¼ö");
+			System.out.println("ì§ìˆ˜");
 		else
-			System.out.println("È¦¼ö");
+			System.out.println("í™€ìˆ˜");
 			
 	}
 }

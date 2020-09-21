@@ -1,14 +1,14 @@
-package pack04_controlstatement.sec04_controlkeyword.EX02_ContinueControlKeyword;
+ï»¿package pack04_controlstatement.sec04_controlkeyword.EX02_ContinueControlKeyword;
 
-/*continue Á¦¾îÅ°¿öµå (´ÜÀÏ ¹İº¹¹® ¹× ´ÙÁß ¹İº¹¹®)*/
+/*continue ì œì–´í‚¤ì›Œë“œ (ë‹¨ì¼ ë°˜ë³µë¬¸ ë° ë‹¤ì¤‘ ë°˜ë³µë¬¸)*/
 
 public class EX02_ContinueControlKeyword {
 	
 	public static void main(String[] args) {
-		// #1. ´ÜÀÏ loop continue
+		// #1. ë‹¨ì¼ loop continue
 		for (int i = 0; i < 10; i++) {
 			continue;
-			// System.out.println(i); //¿À·ù
+			// System.out.println(i); //ì˜¤ë¥˜
 		}
 
 		for (int i = 0; i < 10; i++) {
@@ -24,7 +24,7 @@ public class EX02_ContinueControlKeyword {
 			System.out.print(i + " ");
 		} // 0,1..4,6,...9
 				
-		// #2. ÀÌÁß loop continue
+		// #2. ì´ì¤‘ loop continue
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {
 				if (j == 3) {

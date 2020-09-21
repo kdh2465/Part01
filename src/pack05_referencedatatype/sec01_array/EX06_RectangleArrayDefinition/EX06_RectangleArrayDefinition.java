@@ -1,28 +1,28 @@
-package pack05_referencedatatype.sec01_array.EX06_RectangleArrayDefinition;
+ï»¿package pack05_referencedatatype.sec01_array.EX06_RectangleArrayDefinition;
 
-/*2Â÷¿ø ¹è¿­ÀÇ ¼¼ °¡Áö ¼±¾ğ¹æ¹ı°ú ´Ù¾çÇÑ ¹è¿­ ¼±¾ğ*/
+/*2ì°¨ì› ë°°ì—´ì˜ ì„¸ ê°€ì§€ ì„ ì–¸ë°©ë²•ê³¼ ë‹¤ì–‘í•œ ë°°ì—´ ì„ ì–¸*/
 
 public class EX06_RectangleArrayDefinition {
 	public static void main(String[] args) {		
-		//#1. ¹è¿­ÀÇ ¼±¾ğ ¹æ¹ı 1
+		//#1. ë°°ì—´ì˜ ì„ ì–¸ ë°©ë²• 1
 		int[][] array1 = new int[3][4];
 		int[][] array2;
 		array2 = new int[3][4];
 		
-		//#2. ¹è¿­ÀÇ ¼±¾ğ ¹æ¹ı 2
+		//#2. ë°°ì—´ì˜ ì„ ì–¸ ë°©ë²• 2
 		int array3[][] = new int[3][4];
 		int array4[][];
 		array4=new int[3][4];
 		
-		//#3. ¹è¿­ÀÇ ¼±¾ğ ¹æ¹ı 3
+		//#3. ë°°ì—´ì˜ ì„ ì–¸ ë°©ë²• 3
 		int[] array5[] = new int[3][4];
 		int[] array6[];
 		array6=new int[3][4];
 		
-		//#4. ´Ù¾çÇÑ ¹è¿­ ¼±¾ğ (±âº»ÀÚ·á¹è¿­, ÂüÁ¶ÀÚ·á¹è¿­)
+		//#4. ë‹¤ì–‘í•œ ë°°ì—´ ì„ ì–¸ (ê¸°ë³¸ìë£Œë°°ì—´, ì°¸ì¡°ìë£Œë°°ì—´)
 		boolean[][] array7 = new boolean[3][4];
 		int[][] array8 = new int[2][4];
 		double[][] array9 = new double[3][5];
-		String[][] array10 = new String[2][6]; // ÂüÁ¶ÀÚ·á¹è¿­		
+		String[][] array10 = new String[2][6]; // ì°¸ì¡°ìë£Œë°°ì—´		
 	}
 }

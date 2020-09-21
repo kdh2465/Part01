@@ -1,11 +1,11 @@
-package pack05_referencedatatype.sec01_array.EX08_NonRectangleArray;
+ï»¿package pack05_referencedatatype.sec01_array.EX08_NonRectangleArray;
 
-/*2Â÷¿ø ºñÁ¤¹æÇà·Ä ¹è¿­ÀÇ 3°¡Áö ¿ø¼Ò°ª ´ëÀÔ ¹æ¹ı*/
+/*2ì°¨ì› ë¹„ì •ë°©í–‰ë ¬ ë°°ì—´ì˜ 3ê°€ì§€ ì›ì†Œê°’ ëŒ€ì… ë°©ë²•*/
 
 public class EX08_NonRectangleArray {
 	
 	public static void main(String[] args) {		
-		//#1. ºñÁ¤¹æ ¹è¿­ÀÇ ¼±¾ğ ¹× °ª ´ëÀÔ ¹æ¹ı 1
+		//#1. ë¹„ì •ë°© ë°°ì—´ì˜ ì„ ì–¸ ë° ê°’ ëŒ€ì… ë°©ë²• 1
 		int[][] array1 = new int[2][];		
 		array1[0]=new int[2];
 		array1[0][0]=1; array1[0][1]=2;		
@@ -15,14 +15,14 @@ public class EX08_NonRectangleArray {
 		System.out.println(array1[1][0] + " "+array1[1][1] + " "+array1[1][2]);
 		
 		int array2[][] = new int[2][];
-		array2[0]=new int[] {1,2}; 		// array2[0]= {1,2} ºÒ°¡´É
-		array2[1]=new int[] {3,4,5};	// array2[1]= {3,4,5} ºÒ°¡´É
+		array2[0]=new int[] {1,2}; 		// array2[0]= {1,2} ë¶ˆê°€ëŠ¥
+		array2[1]=new int[] {3,4,5};	// array2[1]= {3,4,5} ë¶ˆê°€ëŠ¥
 		System.out.println(array2[0][0] + " "+array2[0][1]);
 		System.out.println(array2[1][0] + " "+array2[1][1] + " "+array2[1][2]);
 		
 		System.out.println();
 		
-		//#2. ºñÁ¤¹æ ¹è¿­ÀÇ ¼±¾ğ ¹× °ª ´ëÀÔ ¹æ¹ı 2
+		//#2. ë¹„ì •ë°© ë°°ì—´ì˜ ì„ ì–¸ ë° ê°’ ëŒ€ì… ë°©ë²• 2
 		int[][] array3 = new int[][] {{1,2},{3,4,5}};
 		System.out.println(array3[0][0] + " "+array3[0][1]);
 		System.out.println(array3[1][0] + " "+array3[1][1] + " "+array3[1][2]);
@@ -34,10 +34,10 @@ public class EX08_NonRectangleArray {
 		
 		System.out.println();
 		
-		//#3. ºñÁ¤¹æ ¹è¿­ÀÇ ¼±¾ğ ¹× °ª ´ëÀÔ ¹æ¹ı 13
+		//#3. ë¹„ì •ë°© ë°°ì—´ì˜ ì„ ì–¸ ë° ê°’ ëŒ€ì… ë°©ë²• 13
 		int[][] array5 = {{1,2},{3,4,5}};
 		//int[][] array6;
-		//array6 = {{1,2},{3,4,5}}; //¿À·ù
+		//array6 = {{1,2},{3,4,5}}; //ì˜¤ë¥˜
 		System.out.println(array5[0][0] + " "+array5[0][1]);
 		System.out.println(array5[1][0] + " "+array5[1][1] + " "+array5[1][2]);		
 	}

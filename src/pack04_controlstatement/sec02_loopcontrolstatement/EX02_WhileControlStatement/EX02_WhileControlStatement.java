@@ -1,11 +1,11 @@
-package pack04_controlstatement.sec02_loopcontrolstatement.EX02_WhileControlStatement;
+ï»¿package pack04_controlstatement.sec02_loopcontrolstatement.EX02_WhileControlStatement;
 
-/*while ¹İº¹Á¦¾î¹®ÀÇ ±âº»¹®¹ı±¸Á¶, for·Î º¯È¯, Æ¯¼öÇÑ ÇüÅÂ, ¹«ÇÑ·çÇÁ Å»Ãâ*/
+/*while ë°˜ë³µì œì–´ë¬¸ì˜ ê¸°ë³¸ë¬¸ë²•êµ¬ì¡°, forë¡œ ë³€í™˜, íŠ¹ìˆ˜í•œ í˜•íƒœ, ë¬´í•œë£¨í”„ íƒˆì¶œ*/
 
 public class EX02_WhileControlStatement {
 	
 	public static void main(String[] args) {		
-		//#1. while ±âº»¹®¹ı ±¸Á¶ 
+		//#1. while ê¸°ë³¸ë¬¸ë²• êµ¬ì¡° 
 		int a=0;
 		while(a<10){
 		  System.out.print(a+" ");
@@ -13,7 +13,7 @@ public class EX02_WhileControlStatement {
 		} //0 1 ... 9
 		System.out.println();
 		
-		//@ for·ÎÀÇ º¯È¯
+		//@ forë¡œì˜ ë³€í™˜
 		for(int i=0; i<10; i++) {
 			System.out.print(i+" ");
 		} //0 1 ... 9
@@ -26,18 +26,18 @@ public class EX02_WhileControlStatement {
 		} //10 8 ... 2
 		System.out.println();
 		
-		//@ for·ÎÀÇ º¯È¯
+		//@ forë¡œì˜ ë³€í™˜
 		for(int i=10; i>0; i-=2) {
 			System.out.print(i+" ");
 		} //0 1 ... 9
 		System.out.println();
 		
-		//#2. while¹®ÀÇ Æ¯¼öÇÑ ÇüÅÂ (¹«ÇÑ·çÇÁ)		
+		//#2. whileë¬¸ì˜ íŠ¹ìˆ˜í•œ í˜•íƒœ (ë¬´í•œë£¨í”„)		
 		//while(true) {
-		//System.out.println("¹«ÇÑ·çÇÁ");
+		//System.out.println("ë¬´í•œë£¨í”„");
 		//}
 		
-		//#3. ¹«ÇÑ·çÇÁ¿¡¼­ Å»ÃâÇÏ±â (break)
+		//#3. ë¬´í•œë£¨í”„ì—ì„œ íƒˆì¶œí•˜ê¸° (break)
 		int c=0;
 		while(true){
 		  if(c>10){

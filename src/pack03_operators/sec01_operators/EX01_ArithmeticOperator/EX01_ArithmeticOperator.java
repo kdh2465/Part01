@@ -1,11 +1,11 @@
-package pack03_operators.sec01_operators.EX01_ArithmeticOperator;
+ï»¿package pack03_operators.sec01_operators.EX01_ArithmeticOperator;
 
-/*»ê¼ú¿¬»êÀÚ¿Í ¼¼°¡Áö °æ¿ìÀÇ Áõ°¨¿¬»êÀÚ*/
+/*ì‚°ìˆ ì—°ì‚°ìì™€ ì„¸ê°€ì§€ ê²½ìš°ì˜ ì¦ê°ì—°ì‚°ì*/
 
 public class EX01_ArithmeticOperator {
 	
 	public static void main(String[] args) {		
-		//#1. »ê¼ú¿¬»êÀÚ
+		//#1. ì‚°ìˆ ì—°ì‚°ì
 		System.out.println(2+3);
 		System.out.println(8-5);
 		System.out.println(7*2);
@@ -14,7 +14,7 @@ public class EX01_ArithmeticOperator {
 		
 		System.out.println();		
 		
-		//#2. Áõ°¨¿¬»êÀÚ @case1
+		//#2. ì¦ê°ì—°ì‚°ì @case1
 		int value1 = 3;
 		value1++;
 		System.out.println(value1); //4
@@ -25,7 +25,7 @@ public class EX01_ArithmeticOperator {
 		
 		System.out.println();
 				
-		//#3. Áõ°¨¿¬»êÀÚ @case2
+		//#3. ì¦ê°ì—°ì‚°ì @case2
 		int value3 = 3;
 		int value4 = value3++;
 		System.out.println(value3); //4
@@ -38,7 +38,7 @@ public class EX01_ArithmeticOperator {
 		
 		System.out.println();
 				
-		//#4. Áõ°¨¿¬»êÀÚ @case3
+		//#4. ì¦ê°ì—°ì‚°ì @case3
 		int value7 = 3;
 		int value8 = 4;
 		int value9 = 2 + value7-- + ++value8;

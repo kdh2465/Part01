@@ -1,12 +1,12 @@
-package pack05_referencedatatype.sec01_array.EX09_ReadArrayData_2D;
+ï»¿package pack05_referencedatatype.sec01_array.EX09_ReadArrayData_2D;
 
-/*2Â÷¿ø ¹è¿­ÀÇ ¿ø¼Ò°ª Ãâ·Â*/
+/*2ì°¨ì› ë°°ì—´ì˜ ì›ì†Œê°’ ì¶œë ¥*/
 
 public class EX09_ReadArrayData_2D {
 	
 	public static void main(String[] args) {		
-		//#1. 2Â÷¿ø ¹è¿­ÀÇ ±æÀÌ ±¸ÇÏ±â (length)
-		//@1-1. Á¤¹æÇà·Ä
+		//#1. 2ì°¨ì› ë°°ì—´ì˜ ê¸¸ì´ êµ¬í•˜ê¸° (length)
+		//@1-1. ì •ë°©í–‰ë ¬
 		int[][] array1 = new int[2][3];
 		System.out.println(array1.length); //2
 		System.out.println(array1[0].length); //3
@@ -14,7 +14,7 @@ public class EX09_ReadArrayData_2D {
 		
 		System.out.println();
 		
-		//@1-2. ºñÁ¤¹æÇà·Ä
+		//@1-2. ë¹„ì •ë°©í–‰ë ¬
 		int[][] array2 = new int[][] {{1,2},{3,4,5}};
 		System.out.println(array2.length); //2
 		System.out.println(array2[0].length); //2
@@ -22,7 +22,7 @@ public class EX09_ReadArrayData_2D {
 		
 		System.out.println();
 		
-		//#2. Ãâ·Â¹æ¹ı1. ¹è¿­ ÇÏ³ª¾¿ Ãâ·ÂÇÏ±â		
+		//#2. ì¶œë ¥ë°©ë²•1. ë°°ì—´ í•˜ë‚˜ì”© ì¶œë ¥í•˜ê¸°		
 		System.out.println(array2[0][0]);
 		System.out.println(array2[0][1]);
 		System.out.println(array2[1][0]);
@@ -30,13 +30,13 @@ public class EX09_ReadArrayData_2D {
 		System.out.println(array2[1][2]);		
 		System.out.println();		
 		
-		//#3. Ãâ·Â¹æ¹ı2. for ¹İº¹¹®À¸·Î Ãâ·ÂÇÏ±â
+		//#3. ì¶œë ¥ë°©ë²•2. for ë°˜ë³µë¬¸ìœ¼ë¡œ ì¶œë ¥í•˜ê¸°
 		for(int i=0; i<array2.length; i++)
 			for(int j=0; j<array2[i].length; j++)
 				System.out.println(array2[i][j]); //1,2,3,4,5
 		System.out.println();
 				
-		//#4. Ãâ·Â¹æ¹ı3. for-each ¹İº¹¹® »ç¿ëÇÏ¿© Ãâ·ÂÇÏ±â
+		//#4. ì¶œë ¥ë°©ë²•3. for-each ë°˜ë³µë¬¸ ì‚¬ìš©í•˜ì—¬ ì¶œë ¥í•˜ê¸°
 		for (int[] array : array2) {
 			for(int k : array){
 				System.out.println(k); //1,2,3,4,5

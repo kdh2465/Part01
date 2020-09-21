@@ -1,6 +1,6 @@
-package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX01_FloatVsDouble;
+ï»¿package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX01_FloatVsDouble;
 
-/*float°ú doubleÀÇ Á¤¹Ğµµ ºñ±³*/
+/*floatê³¼ doubleì˜ ì •ë°€ë„ ë¹„êµ*/
 
 public class EX01_FloatVsDouble {
 	public static void main(String[] ar) {		

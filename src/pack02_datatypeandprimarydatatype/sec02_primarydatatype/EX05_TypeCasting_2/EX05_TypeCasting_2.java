@@ -1,16 +1,16 @@
-package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX05_TypeCasting_2;
+ï»¿package pack02_datatypeandprimarydatatype.sec02_primarydatatype.EX05_TypeCasting_2;
 
-/*ÀÚµ¿Å¸ÀÔº¯È¯°ú ¼öµ¿Å¸ÀÔº¯È¯*/
+/*ìë™íƒ€ì…ë³€í™˜ê³¼ ìˆ˜ë™íƒ€ì…ë³€í™˜*/
 
 public class EX05_TypeCasting_2 {
 	
 	public static void main(String[] ar) {		
-		//#1. ÀÚµ¿Å¸ÀÔº¯È¯
+		//#1. ìë™íƒ€ì…ë³€í™˜
 		float value1 = 3;
 		long value2 = 5;
 		double value3 = 7;
-		byte value4 = 9;  	//ÀúÀåÇÒ ¼ö ÀÖ´Â °ªÀÇ ¹üÀ§¿¡ ÀÖ´Â °æ¿ì¿¡ ÇÑÇÔ
-		short value5 = 11;	//ÀúÀåÇÒ ¼ö ÀÖ´Â °ªÀÇ ¹üÀ§¿¡ ÀÖ´Â °æ¿ì¿¡ ÇÑÇÔ
+		byte value4 = 9;  	//ì €ì¥í•  ìˆ˜ ìˆëŠ” ê°’ì˜ ë²”ìœ„ì— ìˆëŠ” ê²½ìš°ì— í•œí•¨
+		short value5 = 11;	//ì €ì¥í•  ìˆ˜ ìˆëŠ” ê°’ì˜ ë²”ìœ„ì— ìˆëŠ” ê²½ìš°ì— í•œí•¨
 		
 		System.out.println("value1="+value1);
 		System.out.println("value2="+value2);
@@ -18,7 +18,7 @@ public class EX05_TypeCasting_2 {
 		System.out.println("value4="+value4);
 		System.out.println("value5="+value5);
 		
-		//#2. ¼öµ¿Å¸ÀÔº¯È¯ (¸í½ÃÀûÀ¸·Î castingÀ» ÇÏÁö ¾Ê´Â °æ¿ì ¿À·ù¹ß»ı)
+		//#2. ìˆ˜ë™íƒ€ì…ë³€í™˜ (ëª…ì‹œì ìœ¼ë¡œ castingì„ í•˜ì§€ ì•ŠëŠ” ê²½ìš° ì˜¤ë¥˜ë°œìƒ)
 		byte value6 = (byte)128; 	
 		int value7 = (int)3.5;	 	
 		float value8 = (float)7.5;

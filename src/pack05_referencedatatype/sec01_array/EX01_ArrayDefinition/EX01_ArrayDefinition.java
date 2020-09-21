@@ -1,25 +1,25 @@
-package pack05_referencedatatype.sec01_array.EX01_ArrayDefinition;
+ï»¿package pack05_referencedatatype.sec01_array.EX01_ArrayDefinition;
 
-/*1Â÷¿ø ¹è¿­ÀÇ µÎ °¡Áö ¼±¾ğ¹æ¹ı°ú ´Ù¾çÇÑ ¹è¿­ ¼±¾ğ*/
+/*1ì°¨ì› ë°°ì—´ì˜ ë‘ ê°€ì§€ ì„ ì–¸ë°©ë²•ê³¼ ë‹¤ì–‘í•œ ë°°ì—´ ì„ ì–¸*/
 
 public class EX01_ArrayDefinition {
 	public static void main(String[] args) {
 		
-		//#1. ¹è¿­ÀÇ ¼±¾ğ ¹æ¹ı 1
+		//#1. ë°°ì—´ì˜ ì„ ì–¸ ë°©ë²• 1
 		int[] array1 = new int[3];
 		int[] array2;
 		array2 = new int[3];
 		
-		//#2. ¹è¿­ÀÇ ¼±¾ğ ¹æ¹ı 2
+		//#2. ë°°ì—´ì˜ ì„ ì–¸ ë°©ë²• 2
 		int array3[] = new int[3];
 		int array4[];
 		array4=new int[3];
 		
-		//#3. ´Ù¾çÇÑ ¹è¿­ ¼±¾ğ (±âº»ÀÚ·á¹è¿­, ÂüÁ¶ÀÚ·á¹è¿­)
+		//#3. ë‹¤ì–‘í•œ ë°°ì—´ ì„ ì–¸ (ê¸°ë³¸ìë£Œë°°ì—´, ì°¸ì¡°ìë£Œë°°ì—´)
 		boolean[] array5 = new boolean[3];
 		int[] array6 = new int[5];
 		double[] array7 = new double[7];
-		String[] array8 = new String[9]; // ÂüÁ¶ÀÚ·á¹è¿­
+		String[] array8 = new String[9]; // ì°¸ì¡°ìë£Œë°°ì—´
 		
 	}
 }
