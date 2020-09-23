@@ -28,7 +28,7 @@ public class EX03_ConsoleOutput {
 		System.out.print("\n");
 		System.out.print("\n");
 		
-		//#3. System.out.print(...)
+		//#3. System.out.printf(...)
 		System.out.printf("%d\n",30);//10진수
 		System.out.printf("%o\n",30);//8진수
 		System.out.printf("%x\n",30);//16진수
